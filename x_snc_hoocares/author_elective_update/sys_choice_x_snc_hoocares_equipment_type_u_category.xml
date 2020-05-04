@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_category" table="x_snc_hoocares_equipment_type" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cardiology</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e0cffc1db64501076a050d3e2961916</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:36:53</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobility</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:36:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd2c7fc1db64501076a050d3e29619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:36:51</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dental</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:37:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c3c7fc1db64501076a050d3e29619e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:37:04</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gynecology</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:37:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>373c3305db64501076a050d3e2961977</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:37:17</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Optometry</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:37:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f4c7305db64501076a050d3e296198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:37:32</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exercise</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:39:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dacffc1db64501076a050d3e2961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:39:35</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auditory</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:54:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>162048d5db64501076a050d3e29619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:54:19</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alarms</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:02:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6e10459db64501076a050d3e2961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 01:02:05</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medicine</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence/>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4bec011dba4501005e46b984b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 01:57:44</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sequence>-1</sequence>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:38:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>365c3305db64501076a050d3e29619d5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:55:12</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <name>x_snc_hoocares_equipment_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 00:36:34</sys_created_on>
+            <sys_id>d52cbfc1db64501076a050d3e2961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_category</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_equipment_type_u_category</sys_update_name>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:36:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

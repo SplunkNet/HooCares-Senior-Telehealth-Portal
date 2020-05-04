@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="DELETE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>[PA Indicator] Weekly Measurement Collection - Average Heart Rate Weekly</display>
+        <indicator display_value="Average Heart Rate Weekly">da7fb3d5dbac501076a050d3e29619d5</indicator>
+        <job display_value="[PA Indicator] Weekly Measurement Collection">011944addbac501076a050d3e29619a9</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:16:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>604a00eddbac501076a050d3e2961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Average Heart Rate Weekly.[PA Indicator] Weekly Measurement Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_job_indicators_604a00eddbac501076a050d3e2961945</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:16:42</sys_updated_on>
+    </pa_job_indicators>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>pa_job_indicators_604a00eddbac501076a050d3e2961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators"><pa_job_indicators action="INSERT_OR_UPDATE"><active>true</active><collect>1</collect><collect_indicator>true</collect_indicator><display>[PA Indicator] Weekly Measurement Collection - Average Heart Rate Weekly</display><indicator display_value="Average Heart Rate Weekly">da7fb3d5dbac501076a050d3e29619d5</indicator><job display_value="[PA Indicator] Weekly Measurement Collection">011944addbac501076a050d3e29619a9</job><sys_class_name>pa_job_indicators</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 20:16:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>604a00eddbac501076a050d3e2961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Average Heart Rate Weekly.[PA Indicator] Weekly Measurement Collection</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>pa_job_indicators_604a00eddbac501076a050d3e2961945</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 20:16:42</sys_updated_on></pa_job_indicators></record_update>]]></payload>
+        <payload_hash>-188087684</payload_hash>
+        <record_name>[PA Indicator] Weekly Measurement Collection - Average Heart Rate Weekly</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:16:43</sys_created_on>
+        <sys_id>2c4a00eddbac501076a050d3e296194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d708b08a0000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:16:43</sys_updated_on>
+        <type>Job Indicator</type>
+        <update_guid>644a00edb9ac5010657616c7b2f61c4a</update_guid>
+        <update_guid_history>644a00edb9ac5010657616c7b2f61c4a:-188087684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="[PA Indicator] Weekly Measurement Collection - ">cb0b5c3ddb28901076a050d3e2961920</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:08:33</sys_created_on>
+        <sys_db_object display_value="" name="pa_job_indicators">pa_job_indicators</sys_db_object>
+        <sys_id>37abe2a589834988887b401c06bef490</sys_id>
+        <sys_metadata>604a00eddbac501076a050d3e2961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Average Heart Rate Weekly.[PA Indicator] Weekly Measurement Collection</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent display_value="">011944addbac501076a050d3e29619a9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>pa_job_indicators_604a00eddbac501076a050d3e2961945</sys_update_name>
+        <sys_update_version display_value="pa_job_indicators_604a00eddbac501076a050d3e2961945">2c4a00eddbac501076a050d3e296194a</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:08:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

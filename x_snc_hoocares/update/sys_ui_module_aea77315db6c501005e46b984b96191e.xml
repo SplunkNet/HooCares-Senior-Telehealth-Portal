@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HooCares">151d0851dba4501076a050d3e29619d3</application>
+        <filter/>
+        <name>Pharmacies</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_hoocares.pharmacy_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 18:55:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aea77315db6c501005e46b984b96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pharmacies</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_ui_module_aea77315db6c501005e46b984b96191e</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:24:52</sys_updated_on>
+        <table>x_snc_hoocares_pharmacy</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

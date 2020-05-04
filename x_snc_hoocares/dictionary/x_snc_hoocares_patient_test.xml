@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient Test" max_length="40" name="x_snc_hoocares_patient_test" sizeclass="0" type="collection">
+        <element label="Date Administrated" max_length="40" name="date_administrated" type="glide_date_time"/>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_snc_hoocares_doctor" type="reference"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_hoocares_patient" type="reference"/>
+        <element label="Result" max_length="40" name="result" type="string"/>
+        <element label="Result Date" max_length="40" name="result_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

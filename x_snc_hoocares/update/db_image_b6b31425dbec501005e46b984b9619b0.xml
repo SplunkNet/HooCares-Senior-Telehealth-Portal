@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>toilets_inclusive.png</name>
+        <size_bytes>972</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:06</sys_created_on>
+        <sys_id>b6b31425dbec501005e46b984b9619b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>toilets_inclusive.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_b6b31425dbec501005e46b984b9619b0</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:07</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>151aa127d6ccf866d43bf7730f85444f7fb9541453bef919a2413b92b1bf4ab9</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>972</size_bytes>
+        <size_compressed>995</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:06</sys_created_on>
+        <sys_id>b2b31425dbec501005e46b984b9619b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:08</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>b6b31425dbec501005e46b984b9619b0</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="b2b31425dbec501005e46b984b9619b2">b2b31425dbec501005e46b984b9619b2</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:06</sys_created_on>
+        <sys_id>f2b31425dbec501005e46b984b9619b2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AcwDM/yJUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAAN+SURBVFiF1ZfBi1tFHMc/eaTZdPLS3eTQXUqIAfFQS+NKT62lQUwq8Vj0ZPGP0Js07SGtJ/Ef0fZkKTZbepI91cbArlIEwx4MCLsvajI7hOyLh8zEt9mX7Dx4PTgwTJL58ft+5je/mcwvMZlMAKjVaknAAVJ6TBJvGwM+MAL8Vqs1BkhMJhMjngLSuqc0gBOTuK8BRoDSfdRqtcaJarVqxAVwTo9pXk8EFCCBv/U4MqtMa/HzjXZnO2bhY625Wb6qP/rAOBh60Wh3tkulEkII0ul0rMJKKaSUNNqd7eZm+TJ6G4KJlwYWiu/t7UUSLBaLx77P+TR55iSZ7rXpC1deLBZxf3hiJT74sB76e8D3TNMk2tJs39/fZzgcwsVLVgAAqVSKjY2NZSaOITm1DYdD3vrma87Uw1c23+RPL+l+etvK1vqcn6nX2b14iV2LKJwtX7Z1G+2iefuXHSu7RNL+Col809lCvDaAuNv/B8D79jsmo5GV7V9P7O4LsDyGmUyG3t179O7es3YshIgP4OjoiHw+j5SS0vNnOGtroXZ+v0/3/Q8QQiCljA9ACEHmq/v4T7f49ep7S23Xbt0ic7MKX96JD0BKid/a4sKDJhceNBl7HoedDv883QIge7PK2XKZZC4HwB93GigpcV03HgAhBAcPH3H+i89J5nIkczmylQrZSuWE7djz6D98RD6ft3Ftdwpc18VxHF5du87Y8xbajT2PV9eu4ziO1eqtAQAKhcIM4nBn98T84c7uTLxQKNi6jfbuW19fp9fr8fvHnyy1idIiAUgpSZXe4M3H35NwTgbvt/pHSK/P6uqqtc9IV7GUkmytFioOkK3VrM//PIBvYyyEIFu5sXA+W7lhfQMazSTT97rpKKUWvguVUnRvf7bU68rKysItUEqZjzPNJP+VSwqYhTAMImqCzYsHtkdpTT9RrVZTgAussaQwKZVK1pfLwcEB3W43dE4XJn8CfWBgIqCYlkvooiFYmjkAjXbnR+BUCCPe3CybPw2TX/OlmQJ8m+J09oZvtDsvlkUiIH6F47m1uDg9pTw3Y7B8exkGERB/V6/S7HMQILw8X9Y0WJppnrga4ucgRED8HS0+0F0ZoUXtVIAFEK6JBBBc+YAI4tYAIRDnNMQLwOz5gGlyWYtHApiDELqn9NSIaehlFPHIAAEIk5TmqJojNooiDvAvmjZ9kmwIZh4AAAAASUVORK5CYIJu+f7kzAMAAA==</data>
+        <length>1316</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="b2b31425dbec501005e46b984b9619b2">b2b31425dbec501005e46b984b9619b2</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:06</sys_created_on>
+        <sys_id>76b31425dbec501005e46b984b9619b2</sys_id>
+    </sys_attachment_doc>
+</record_update>

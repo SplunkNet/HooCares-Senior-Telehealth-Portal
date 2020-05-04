@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Sensor Types" language="en" table="x_snc_hoocares_sensor_types">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Sensor Types</label>
+            <language>en</language>
+            <name>x_snc_hoocares_sensor_types</name>
+            <plural>Sensor Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:57:34</sys_created_on>
+            <sys_id>7933b341db64501005e46b984b961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sensor Types</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_hoocares_sensor_types__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:57:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

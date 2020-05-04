@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Medications" max_length="40" name="x_snc_hoocares_medications" sizeclass="0" type="collection">
+        <element choice="1" label="Class" max_length="40" name="class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Experimental"/>
+                <element inactive_on_update="false" label="OTC"/>
+                <element inactive_on_update="false" label="Other"/>
+                <element inactive_on_update="false" label="Schedule 1"/>
+                <element inactive_on_update="false" label="Schedule 2"/>
+                <element inactive_on_update="false" label="Schedule 3"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="description" type="string"/>
+        <element label="Dose" max_length="40" name="dosage_regimen" type="string"/>
+        <element label="Drug Allergy" max_length="40" name="drug_allergy" type="boolean"/>
+        <element label="Duration" max_length="40" name="duration" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_hoocares_patient" type="reference"/>
+        <element label="Prescribed" max_length="32" name="prescribed" reference="x_snc_hoocares_doctor" type="reference"/>
+        <element label="Prescription" max_length="40" name="prescription" type="string"/>
+        <element label="Refill Number" max_length="40" name="refill_number" type="integer"/>
+        <element label="Regimen" max_length="40" name="regimen" type="integer"/>
+        <element label="Special Instructions" max_length="40" name="special_instructions" type="translated_text"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="prescribed"/>
+        </index>
+        <index name="index2">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

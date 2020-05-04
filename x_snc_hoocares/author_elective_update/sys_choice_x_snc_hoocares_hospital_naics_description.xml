@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="naics_description" table="x_snc_hoocares_hospital" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CANCER HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>1</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>696ee3dddb2c501005e46b984b961941</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>110</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHILDREN'S HOSPITALS, GENERAL</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>2</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b961943</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>120</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHILDREN'S HOSPITALS, PSYCHIATRIC OR SUBSTANCE ABUSE</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>3</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>130</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHILDREN'S HOSPITALS, SPECIALTY (EXCEPT PSYCHIATRIC, SUBSTANCE ABUSE)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>4</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b961947</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>140</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EXTENDED CARE HOSPITALS (EXCEPT MENTAL, SUBSTANCE ABUSE)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>5</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b961949</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>150</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EYE, EAR, NOSE, AND THROAT HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>6</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b96194b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>160</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GENERAL MEDICAL AND SURGICAL HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>7</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b96194d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>170</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOSPITALS, ADDICTION</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>8</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6ee3dddb2c501005e46b984b96194f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>180</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOSPITALS, PSYCHIATRIC (EXCEPT CONVALESCENT)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>9</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b961951</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>190</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOSPITALS, PSYCHIATRIC PEDIATRIC</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>10</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b961953</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOSPITALS, SPECIALTY (EXCEPT PSYCHIATRIC, SUBSTANCE ABUSE)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>11</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b961955</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>210</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOSPITALS, SUBSTANCE ABUSE</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>12</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b961957</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>220</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MATERNITY HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>13</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b961959</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>230</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MENTAL HEALTH HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>14</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b96195b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>240</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ORTHOPEDIC HOSPITALS</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>15</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b96195d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:02</sys_updated_on>
+            <value>250</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>naics_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>REHABILITATION HOSPITALS (EXCEPT ALCOHOLISM, DRUG ADDICTION)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence>16</sequence>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 18:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6ee3dddb2c501005e46b984b96195f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:17:03</sys_updated_on>
+            <value>260</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>naics_description</element>
+            <name>x_snc_hoocares_hospital</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nstodd</sys_created_by>
+            <sys_created_on>2020-05-02 17:55:21</sys_created_on>
+            <sys_id>a9e9e71ddb2c501005e46b984b9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>naics_description</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_hospital_naics_description</sys_update_name>
+            <sys_updated_by>nstodd</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:55:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

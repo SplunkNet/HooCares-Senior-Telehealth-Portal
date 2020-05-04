@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name/>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>test</name>
+        <sizing>fixed</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-03 23:22:18</sys_created_on>
+        <sys_id>492eb1f1dbec901076a050d3e2961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>content_block_iframe_492eb1f1dbec901076a050d3e2961943</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 23:22:18</sys_updated_on>
+        <url>javascript:'https://hackathon054.service-now.com/x_snc_hoocares_measurements.do?sysparm_id=' + gs.getUserID();</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>

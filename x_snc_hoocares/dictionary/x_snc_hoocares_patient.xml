@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Patient" max_length="40" name="x_snc_hoocares_patient" sizeclass="42" type="collection">
+        <element label="Emergency Contact Name" max_length="100" name="emergency_contact_name" type="string"/>
+        <element label="Fitbit ID" max_length="40" name="fitbit_id" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Preferred Pharmacy" max_length="255" name="preferred_pharmacy" reference="x_snc_hoocares_pharmacy" type="reference"/>
+        <element label="Emergency Contact Number" max_length="20" name="u_emergency_phone" type="string"/>
+        <element label="Room Number" max_length="40" name="u_room_number" type="string"/>
+    </element>
+</database>

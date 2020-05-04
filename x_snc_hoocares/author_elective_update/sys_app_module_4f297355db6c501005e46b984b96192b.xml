@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="HooCares">8132b3c9db24501076a050d3e2961929</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Patient Pharmacy s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_hoocares_patient_pharmacy</name>
+        <order>3100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_hoocares.patient_pharmacy_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 19:02:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f297355db6c501005e46b984b96192b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patient Pharmacies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_app_module_4f297355db6c501005e46b984b96192b</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:37:25</sys_updated_on>
+        <timeline_page/>
+        <title>Patient Pharmacies</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_app_module_4f297355db6c501005e46b984b96192b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="HooCares">8132b3c9db24501076a050d3e2961929</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Patient Pharmacy s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hoocares_patient_pharmacy</name><order>3100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hoocares.patient_pharmacy_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sissazad</sys_created_by><sys_created_on>2020-05-02 19:02:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f297355db6c501005e46b984b96192b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Patient Pharmacies</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_app_module_4f297355db6c501005e46b984b96192b</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-03 20:37:25</sys_updated_on><timeline_page/><title>Patient Pharmacies</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1457591336</payload_hash>
+        <record_name>Patient Pharmacies</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 20:37:25</sys_created_on>
+        <sys_id>a59815b1db6c901076a050d3e296195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc42020e0000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:37:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>219815b1eb6c9010b75e0a2ce32ec65e</update_guid>
+        <update_guid_history>219815b1eb6c9010b75e0a2ce32ec65e:1457591336,291960217c20901093ca191f046c3b2d:55851913,072973551e6c50109f5724e53750972d:1035955790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Pharmacies">cb100231dbac901005e46b984b961992</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-03 23:30:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3092c0ce45494080b3ab4a1d8e505e40</sys_id>
+        <sys_metadata>4f297355db6c501005e46b984b96192b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Pharmacies</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_app_module_4f297355db6c501005e46b984b96192b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4f297355db6c501005e46b984b96192b">a59815b1db6c901076a050d3e296195e</sys_update_version>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-03 23:30:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

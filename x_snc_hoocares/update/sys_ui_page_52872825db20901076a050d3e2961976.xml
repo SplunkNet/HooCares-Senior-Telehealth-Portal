@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var data = JSON.parse("$[jvar_data]");
+var id = "$[jvar_sysid]";
+
+addLateLoadEvent(function() {
+	fixDateTimeFields();
+	drawCharts(data);
+	
+	var btn = document.getElementById('btn-update');
+	btn.onclick = updateData;
+	
+	jQuery('#tabs li a:not(:first)').addClass('inactive');
+	jQuery('.container').hide();
+	jQuery('.container:first').show();
+	jQuery('#tabs li a').click(function(){
+		var t = jQuery(this).attr('id');
+
+		if(jQuery(this).hasClass('inactive')){ //this is the start of our condition 
+			jQuery('#tabs li a').addClass('inactive');           
+			jQuery(this).removeClass('inactive');
+
+			jQuery('.container').hide();
+			jQuery('#'+ t + 'C').fadeIn('slow');
+		}
+	});
+});
+
+
+var heartRateChart, weightChart, tempChart, cholesterolChart, bloodSugarChart, bloodOxygenChart, systolicChart;
+function drawCharts(data) {
+	/*********************** HEART RATE GRAPH *************************/
+	var heartRateCtx = document.getElementById('heartRateChart').getContext('2d');
+	heartRateChart = new Chart(heartRateCtx, {
+		type: 'line',
+		data: {
+			labels: data.heartRate.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				label: 'Heart Rate',
+				data: data.heartRate.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+				],
+				orderColor: [
+					'rgba(255, 99, 132, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Heart Rate Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Heart Rate (BPM)'
+					}
+				}],
+			}
+		}
+	});
+
+	/*********************** WEIGHT GRAPH *************************/
+
+	var weightCtx = document.getElementById('weightChart').getContext('2d');
+	weightChart = new Chart(weightCtx, {
+		type: 'line',
+		data: {
+			labels: data.weight.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				label: 'Weight (lbs)',
+				data: data.weight.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(54, 162, 235, 0.2)',
+				],
+				borderColor: [
+					'rgba(54, 162, 235, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Weight Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Weight'
+					}
+				}]
+			}
+		}
+	});
+
+	/*********************** TEMPERATURE GRAPH *************************/
+
+	var tempCtx = document.getElementById('temperatureChart').getContext('2d');
+	tempChart = new Chart(tempCtx, {
+		type: 'line',
+		data: {
+			labels: data.temperature.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.temperature.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(255, 206, 86, 0.2)',
+				],
+				borderColor: [
+					'rgba(255, 206, 86, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Temperature Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						min: 85,
+						beginAtZero: false,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Temperature (F)'
+					}
+				}]
+			}
+		}
+	});
+	
+	/*********************** CHOLESTEROL GRAPH *************************/
+
+	var cholCtx = document.getElementById('cholesterolChart').getContext('2d');
+	cholesterolChart = new Chart(cholCtx, {
+		type: 'line',
+		data: {
+			labels: data.cholesterol.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.cholesterol.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(75, 192, 192, 0.2)',
+				],
+				borderColor: [
+					'rgba(75, 192, 192, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Cholesterol Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Cholesterol (mg/dL)'
+					}
+				}]
+			}
+		}
+	});
+	
+		/*********************** BLOOD SUGAR GRAPH *************************/
+
+	var bloodSugarCtx = document.getElementById('bloodSugarChart').getContext('2d');
+	bloodSugarChart = new Chart(bloodSugarCtx, {
+		type: 'line',
+		data: {
+			labels: data.bloodSugar.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.bloodSugar.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(153, 102, 255, 0.2)',
+				],
+				borderColor: [
+					'rgba(153, 102, 255, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Blood Sugar Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Blood Sugar (mg/dL)'
+					}
+				}]
+			}
+		}
+	});
+	
+		/*********************** BLOOD OXYGEN LEVEL GRAPH *************************/
+
+	var bloodOxygenCtx = document.getElementById('bloodOxygenChart').getContext('2d');
+	bloodOxygenChart = new Chart(bloodOxygenCtx, {
+		type: 'line',
+		data: {
+			labels: data.bloodOxygen.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.bloodOxygen.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(153, 102, 255, 0.2)',
+				],
+				borderColor: [
+					'rgba(153, 102, 255, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Blood Oxygen Levels',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Blood Oxygen Level (%)'
+					}
+				}]
+			}
+		}
+	});
+	
+	/*********************** BLOOD PRESSURE SYSTOLIC GRAPH *************************/
+	var systolicCtx = document.getElementById('systolicChart').getContext('2d');
+	systolicChart = new Chart(systolicCtx, {
+		type: 'line',
+		data: {
+			labels: data.systolic.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.systolic.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+				],
+				orderColor: [
+					'rgba(255, 99, 132, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Blood Pressure Systolic Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Blood Pressure Systolic (mm Hg)'
+					}
+				}],
+			}
+		}
+	});
+}
+
+function updateData() {
+	var ga = new GlideAjax('HooCaresUtilsAJAX');
+	ga.addParam('sysparm_name', 'getMeasurements');
+	ga.addParam('sysparm_sysid', id);
+	ga.addParam('sysparm_start_date', gel('start-date').value);
+	ga.addParam('sysparm_end_date', gel('end-date').value);
+	ga.getXML(function(response) {
+		var data = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+		var charts = [heartRateChart, weightChart, tempChart, cholesterolChart, bloodSugarChart, bloodOxygenChart, systolicChart];
+		var indexTableMap = {
+			0: 'heartRate',
+			1: 'weight',
+			2: 'temperature',
+			3: 'cholesterol',
+			4: 'bloodSugar',
+			5: 'bloodOxygen',
+			6: 'systolic'
+		};
+		for(var i = 0; i < charts.length; ++i) {
+			charts[i].config.data.labels = data[indexTableMap[i]].map(function(rec) {
+				return rec.date;
+			});
+			charts[i].config.data.datasets[0].data = data[indexTableMap[i]].map(function(rec) {
+					return rec.value;
+			});
+			charts[i].update();
+		}
+	});
+}
+
+function fixDateTimeFields() {
+	var startDateDiv = gel('start-date-container');
+	var endDateDiv = gel('end-date-container');
+// 	var startDate = document.getElementsByTagName('input')[0];
+// 	var endDate = document.getElementsByTagName('input')[1];
+	var dates = document.querySelectorAll('#date_time');
+	var startDate = dates[0];
+	var endDate = dates[1];
+	startDate.id = 'start-date';
+	endDate.id = 'end-date';
+	var startDateBtn = jQuery('#start-date-container button')[0];
+	var endDateBtn = jQuery('#end-date-container button')[0];
+	startDateBtn.id = 'anchordate_timex_start';
+	endDateBtn.id = 'anchordate_timex_end';
+	startDateBtn.setAttribute('onclick', "new GwtDateTimePicker('start-date', 'yyyy-MM-dd HH:mm:ss', true);");
+	endDateBtn.setAttribute('onclick', "new GwtDateTimePicker('end-date', 'yyyy-MM-dd HH:mm:ss', true);");
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_snc_hoocares_measurements.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate var="jvar_data">
+		var sysID = RP.getParameterValue('sysparm_id')
+		if(sysID == '' || sysID == null) sysID = gs.getUserID();
+		var patient = new GlideRecord('x_snc_hoocares_patient');
+		patient.get(sysID);
+		var dataArr = x_snc_hoocares.HooCaresUtils.getMeasurements(sysID);
+		var startDate = gs.daysAgo(7).toString();
+		var endDate = new GlideDateTime().toString();
+		
+		JSON.stringify(dataArr);
+	</g2:evaluate>
+	
+	<j2:set var="jvar_sysid" value="$[sysID]"/>
+	
+	<div id="main-container" width="400px">
+		<h2>$[patient.first_name + ' ' + patient.last_name]</h2>
+		
+		<div class='date-container' id='start-date-container'>
+			<span>From Date/Time</span>
+			<g:ui_date_time id="start-date" value=""/>
+		</div>
+		<div class='date-container' id='end-date-container'>
+			<span>To Date/Time</span>
+			<g:ui_date_time id="end-date" value=""/>
+			<input id="btn-update" type="button" value="Update Charts"></input>
+		</div>
+		
+		<ul id="tabs">
+			<li><a id="tab1">Heart Rate</a></li>
+			<li><a id="tab2">Weight</a></li>
+			<li><a id="tab3">Temp</a></li>
+			<li><a id="tab4">Cholesterol</a></li>
+			<li><a id="tab5">Blood Sugar</a></li>
+			<li><a id="tab6">Blood Oxygen %</a></li>
+			<li><a id="tab7">Blood Pressure Systolic</a></li>
+		</ul>
+		
+		<div class="graph-container container" id="tab1C">
+			<canvas id="heartRateChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab2C">
+			<canvas id="weightChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab3C">
+			<canvas id="temperatureChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab4C">
+			<canvas id="cholesterolChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab5C">
+			<canvas id="bloodSugarChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab6C">
+			<canvas id="bloodOxygenChart"></canvas>
+		</div>
+		<div class="graph-container container" id="tab7C">
+			<canvas id="systolicChart"></canvas>
+		</div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	
+	<style>
+		h2 {
+			margin-left: 5%;
+		}
+		
+		#tabs-container {
+			margin-left: 5%;
+		}
+		
+		#tabs li {
+			display: inline-block;
+			margin-top: 25px;
+			margin-right: 3px;
+		}
+		
+		#tabs li a {
+			background-color: #e3dedf;
+			border: 1px solid #6e6e6e;
+			border-radius: 3px;
+			color: black;
+			padding: 5px;
+			text-decoration: none;
+		}
+		
+		.graph-container {
+		  	margin-bottom: 100px !important;
+		}
+		
+		.date-container {
+			margin-left: 5%;
+			width: 25%;
+		}
+	</style>
+
+</j:jelly>]]></html>
+        <name>measurements</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 22:31:58</sys_created_on>
+        <sys_id>52872825db20901076a050d3e2961976</sys_id>
+        <sys_mod_count>241</sys_mod_count>
+        <sys_name>measurements</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_ui_page_52872825db20901076a050d3e2961976</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 03:32:38</sys_updated_on>
+    </sys_ui_page>
+</record_update>

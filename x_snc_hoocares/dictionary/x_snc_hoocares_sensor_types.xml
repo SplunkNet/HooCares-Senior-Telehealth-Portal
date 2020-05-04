@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sensor Types" max_length="40" name="x_snc_hoocares_sensor_types" sizeclass="2" type="collection">
+        <element label="Default Range Max" max_length="20" name="default_range_max" type="decimal"/>
+        <element label="Default Range Min" max_length="20" name="default_range_min" type="decimal"/>
+        <element label="Frequency" max_length="40" name="frequency" type="glide_duration"/>
+        <element label="Measurement Units" max_length="40" name="measurement_units" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Scheduled Job" max_length="32" name="scheduled_job" read_only="true" reference="sysauto_script" type="reference"/>
+        <element label="Sensor ID" max_length="40" name="sensor_id" type="string"/>
+        <index name="index">
+            <element name="scheduled_job"/>
+        </index>
+    </element>
+</database>

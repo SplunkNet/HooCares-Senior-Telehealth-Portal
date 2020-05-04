@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="DELETE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <business_calendar/>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <entered_time/>
+        <kill_job>true</kill_job>
+        <name>[PA Indicator] Weekly Measurement Collection</name>
+        <run_as display_value="Jeremy Le">675bd705db24501005e46b984b961952</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-05-02 20:11:34</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>0</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>1</score_relative_start>
+        <score_relative_start_interval>weeks</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:15:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>011944addbac501076a050d3e29619a9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>[PA Indicator] Weekly Measurement Collection</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sysauto_pa_011944addbac501076a050d3e29619a9</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:08:47</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="DELETE" query="documentkey=011944addbac501076a050d3e29619a9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sysauto_pa_011944addbac501076a050d3e29619a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa"><sysauto_pa action="INSERT_OR_UPDATE"><active>true</active><benchmarking>false</benchmarking><business_calendar/><collect>scores_text</collect><condition/><conditional>false</conditional><description/><entered_time/><kill_job>true</kill_job><name>[PA Indicator] Weekly Measurement Collection</name><run_as display_value="Jeremy Le">675bd705db24501005e46b984b961952</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek>1</run_dayofweek><run_period/><run_start>2020-05-02 20:11:34</run_start><run_time>1970-01-01 08:00:00</run_time><run_type>on_demand</run_type><score_fixed_end>00000000</score_fixed_end><score_fixed_start>00000000</score_fixed_start><score_operator>relative</score_operator><score_relative_end>0</score_relative_end><score_relative_end_interval>days</score_relative_end_interval><score_relative_start>1</score_relative_start><score_relative_start_interval>weeks</score_relative_start_interval><sys_class_name>sysauto_pa</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 20:15:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>011944addbac501076a050d3e29619a9</sys_id><sys_mod_count>6</sys_mod_count><sys_name>[PA Indicator] Weekly Measurement Collection</sys_name><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sysauto_pa_011944addbac501076a050d3e29619a9</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-03 16:08:47</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_pa><sys_translated_text action="delete_multiple" query="documentkey=011944addbac501076a050d3e29619a9"/></record_update>]]></payload>
+        <payload_hash>1246231784</payload_hash>
+        <record_name>[PA Indicator] Weekly Measurement Collection</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:08:47</sys_created_on>
+        <sys_id>e61b5c3ddb28901076a050d3e2961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171db4c11db0000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:08:47</sys_updated_on>
+        <type>Scheduled Data Collection</type>
+        <update_guid>621b5c3de42890104762c985148a0780</update_guid>
+        <update_guid_history>621b5c3de42890104762c985148a0780:1246231784,e88c90adc4ec501043b048de0785d6b7:-1595709323,4eb054a525ec5010be250e746cb73e7f:-323805319,5faac4ed09ac50100c89aa26d2ac83da:-1595709323,0d6a80ed2eac5010d99a7b86000fafb3:1246231784,e06a80ed38ac50101077b37286bf898d:-1595709323,e90a44ad2dac50100f3e40013a3e971c:-1825811436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:09:00</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_pa">sysauto_pa</sys_db_object>
+        <sys_id>2b0604d97b354718b6977f0b28f3ce40</sys_id>
+        <sys_metadata>011944addbac501076a050d3e29619a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[PA Indicator] Weekly Measurement Collection</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sysauto_pa_011944addbac501076a050d3e29619a9</sys_update_name>
+        <sys_update_version display_value="sysauto_pa_011944addbac501076a050d3e29619a9">e61b5c3ddb28901076a050d3e2961980</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:09:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

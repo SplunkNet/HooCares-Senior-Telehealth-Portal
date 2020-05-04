@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="core_company" label="Hospital" max_length="40" name="x_snc_hoocares_hospital" sizeclass="7570" type="collection">
+        <element label="Beds" max_length="40" name="beds" type="integer"/>
+        <element label="Helipad" max_length="40" name="helipad" type="string"/>
+        <element label="Hospital Type" max_length="40" name="hospital_type" type="string"/>
+        <element choice="1" label="NAICS Code" max_length="40" name="naics" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="622110" sequence="1" value="622110"/>
+                <element inactive_on_update="false" label="622210" sequence="2" value="622210"/>
+                <element inactive_on_update="false" label="622310" sequence="3" value="622310"/>
+            </choice>
+        </element>
+        <element choice="1" label="NAICS Description" max_length="40" name="naics_description" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CANCER HOSPITALS" sequence="1" value="110"/>
+                <element inactive_on_update="false" label="CHILDREN'S HOSPITALS, GENERAL" sequence="2" value="120"/>
+                <element inactive_on_update="false" label="CHILDREN'S HOSPITALS, PSYCHIATRIC OR SUBSTANCE ABUSE" sequence="3" value="130"/>
+                <element inactive_on_update="false" label="CHILDREN'S HOSPITALS, SPECIALTY (EXCEPT PSYCHIATRIC, SUBSTANCE ABUSE)" sequence="4" value="140"/>
+                <element inactive_on_update="false" label="EXTENDED CARE HOSPITALS (EXCEPT MENTAL, SUBSTANCE ABUSE)" sequence="5" value="150"/>
+                <element inactive_on_update="false" label="EYE, EAR, NOSE, AND THROAT HOSPITALS" sequence="6" value="160"/>
+                <element inactive_on_update="false" label="GENERAL MEDICAL AND SURGICAL HOSPITALS" sequence="7" value="170"/>
+                <element inactive_on_update="false" label="HOSPITALS, ADDICTION" sequence="8" value="180"/>
+                <element inactive_on_update="false" label="HOSPITALS, PSYCHIATRIC (EXCEPT CONVALESCENT)" sequence="9" value="190"/>
+                <element inactive_on_update="false" label="HOSPITALS, PSYCHIATRIC PEDIATRIC" sequence="10" value="200"/>
+                <element inactive_on_update="false" label="HOSPITALS, SPECIALTY (EXCEPT PSYCHIATRIC, SUBSTANCE ABUSE)" sequence="11" value="210"/>
+                <element inactive_on_update="false" label="HOSPITALS, SUBSTANCE ABUSE" sequence="12" value="220"/>
+                <element inactive_on_update="false" label="MATERNITY HOSPITALS" sequence="13" value="230"/>
+                <element inactive_on_update="false" label="MENTAL HEALTH HOSPITALS" sequence="14" value="240"/>
+                <element inactive_on_update="false" label="ORTHOPEDIC HOSPITALS" sequence="15" value="250"/>
+                <element inactive_on_update="false" label="REHABILITATION HOSPITALS (EXCEPT ALCOHOLISM, DRUG ADDICTION)" sequence="16" value="260"/>
+            </choice>
+        </element>
+        <element label="Trauma" max_length="40" name="trauma" type="string"/>
+    </element>
+</database>

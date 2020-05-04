@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <conditions/>
+        <description/>
+        <facts_table>x_snc_hoocares_base_measurements</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>10</frequency>
+        <name>Measurements</name>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 19:35:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a530cce5dbac501076a050d3e2961909</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Measurements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_cubes_a530cce5dbac501076a050d3e2961909</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:43:24</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=a530cce5dbac501076a050d3e2961909"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>pa_cubes_a530cce5dbac501076a050d3e2961909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><conditions/><description/><facts_table>x_snc_hoocares_base_measurements</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>10</frequency><name>Measurements</name><report_source/><report_source_updated_at/><sys_class_name>pa_cubes</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 19:35:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a530cce5dbac501076a050d3e2961909</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Measurements</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>pa_cubes_a530cce5dbac501076a050d3e2961909</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 20:43:24</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=a530cce5dbac501076a050d3e2961909"/></record_update>]]></payload>
+        <payload_hash>-1510730766</payload_hash>
+        <record_name>Measurements</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:43:24</sys_created_on>
+        <sys_id>d350dc65dbec501076a050d3e29619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d7211e390000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:43:24</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>5f50dc6512ec5010a4facf762c6524a6</update_guid>
+        <update_guid_history>5f50dc6512ec5010a4facf762c6524a6:-1510730766,6d5010a5d6ec5010735d2c0b1129bb18:-1342187820,bf4010a573ec50107bd91e3fa0884fab:1385137812,4b1540e9eeac5010086f96130d946713:797675541,d611c429dfac5010d71d013a2ffad521:727354871,b6b0002981ac5010d7340ed4140131c5:579388860</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Measurements">891b5c3ddb28901076a050d3e296199e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:08:41</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>0d5c86209cea4b38814b1865e220ce40</sys_id>
+        <sys_metadata>a530cce5dbac501076a050d3e2961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Measurements</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>pa_cubes_a530cce5dbac501076a050d3e2961909</sys_update_name>
+        <sys_update_version display_value="pa_cubes_a530cce5dbac501076a050d3e2961909">d350dc65dbec501076a050d3e29619a7</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:08:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

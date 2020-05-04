@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2a88aefddb20d01076a050d3e2961977" sys_domain="global" table="u_imp_tmpl_x_snc_hoocares_medical_conditions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>ee88aefddb20d01076a050d3e2961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>1</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>6688aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_family_history</element>
+            <position>2</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>e688aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_of_diagnosis</element>
+            <position>3</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>6a88aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_onset_of_symptoms</element>
+            <position>4</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>ea88aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>6e88aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_in_treatment</element>
+            <position>6</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>ee88aefddb20d01076a050d3e2961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_doctor</element>
+            <position>7</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>6288aefddb20d01076a050d3e296197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient</element>
+            <position>8</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>e288aefddb20d01076a050d3e296197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>6688aefddb20d01076a050d3e296197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>10</position>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_id>e688aefddb20d01076a050d3e296197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_hoocares_medical_conditions" sys_domain="global" view="Default view">2a88aefddb20d01076a050d3e2961977</sys_ui_section>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_snc_hoocares_medical_conditions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-04 02:26:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a88aefddb20d01076a050d3e2961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_snc_hoocares_medical_conditions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_ui_section_2a88aefddb20d01076a050d3e2961977</sys_update_name>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-04 02:26:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

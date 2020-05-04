@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Diagnostics Test" max_length="40" name="x_snc_hoocares_diagnostics_test" sizeclass="0" type="collection">
+        <element choice="1" label="Billing Code" max_length="40" name="billing_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Anesthesia" value="00100-01999"/>
+                <element inactive_on_update="false" label="Evaluation and Management Services" value="99201-99499"/>
+                <element inactive_on_update="false" label="Medicine Services and Procedures" value="90281-99607"/>
+                <element inactive_on_update="false" label="Multi analyst Assay" value="0001M-0009M"/>
+                <element inactive_on_update="false" label="Pathology and Laboratory Procedures" value="80047-89398"/>
+                <element inactive_on_update="false" label="Radiology Procedures" value="70010-79999"/>
+                <element inactive_on_update="false" label="Surgery" value="10021-69990"/>
+            </choice>
+        </element>
+        <element choice="1" label="diagnosis Code" max_length="40" name="diagnosis_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alpers disease" value="C4912"/>
+                <element inactive_on_update="false" label="Alzheimer's disease with early onset" value="G300"/>
+                <element inactive_on_update="false" label="Helicobacter pylori [H. pylori] as the cause of diseases classified" value="B9681"/>
+                <element inactive_on_update="false" label="Iron deficiency anemia secondary to blood loss (chronic)" value="D500"/>
+                <element inactive_on_update="false" label="Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder" value="C4912"/>
+                <element inactive_on_update="false" label="secondary syphilis of skin" value="A5139"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="DELETE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="Patient">94c5c8e9dbac501076a050d3e2961990</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id/>
+        <name>Patient</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 19:59:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad16cce9dbac501076a050d3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_breakdowns_ad16cce9dbac501076a050d3e2961909</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:59:02</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+    <sys_translated_text action="DELETE" query="documentkey=ad16cce9dbac501076a050d3e2961909"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>pa_breakdowns_ad16cce9dbac501076a050d3e2961909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns"><pa_breakdowns action="INSERT_OR_UPDATE"><data_source/><default_filter/><description/><dimension display_value="Patient">94c5c8e9dbac501076a050d3e2961990</dimension><display>true</display><facts_table/><field/><groups/><id/><name>Patient</name><role_override>true</role_override><roles/><script/><scripted>false</scripted><sql_statement/><sys_class_name>pa_breakdowns</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 19:59:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad16cce9dbac501076a050d3e2961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>pa_breakdowns_ad16cce9dbac501076a050d3e2961909</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 19:59:02</sys_updated_on><type>1</type><users/><visible_to>2</visible_to></pa_breakdowns><sys_translated_text action="delete_multiple" query="documentkey=ad16cce9dbac501076a050d3e2961909"/></record_update>]]></payload>
+        <payload_hash>1427263948</payload_hash>
+        <record_name>Patient</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 19:59:03</sys_created_on>
+        <sys_id>e936002ddbac501076a050d3e296192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d6f883740000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:59:03</sys_updated_on>
+        <type>Breakdown</type>
+        <update_guid>2536002d62ac50109c7d75323569dd2a</update_guid>
+        <update_guid_history>2536002d62ac50109c7d75323569dd2a:1427263948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient">33ca183ddb28901076a050d3e29619d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:07:31</sys_created_on>
+        <sys_db_object display_value="" name="pa_breakdowns">pa_breakdowns</sys_db_object>
+        <sys_id>43c4e9aea5864019a7cdbac278df4789</sys_id>
+        <sys_metadata>ad16cce9dbac501076a050d3e2961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>pa_breakdowns_ad16cce9dbac501076a050d3e2961909</sys_update_name>
+        <sys_update_version display_value="pa_breakdowns_ad16cce9dbac501076a050d3e2961909">e936002ddbac501076a050d3e296192a</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:07:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

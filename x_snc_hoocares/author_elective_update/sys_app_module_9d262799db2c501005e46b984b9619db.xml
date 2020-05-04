@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="HooCares">8132b3c9db24501076a050d3e2961929</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Doctor Hospitals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_hoocares_doctor_hospital</name>
+        <order>3000</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_hoocares.doctor_hospital_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 17:38:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d262799db2c501005e46b984b9619db</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Doctor Hospitals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_app_module_9d262799db2c501005e46b984b9619db</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:37:01</sys_updated_on>
+        <timeline_page/>
+        <title>Doctor Hospitals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_app_module_9d262799db2c501005e46b984b9619db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="HooCares">8132b3c9db24501076a050d3e2961929</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Doctor Hospitals</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hoocares_doctor_hospital</name><order>3000</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hoocares.doctor_hospital_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sissazad</sys_created_by><sys_created_on>2020-05-02 17:38:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d262799db2c501005e46b984b9619db</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Doctor Hospitals</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_app_module_9d262799db2c501005e46b984b9619db</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-03 20:37:01</sys_updated_on><timeline_page/><title>Doctor Hospitals</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>274498954</payload_hash>
+        <record_name>Doctor Hospitals</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 20:37:01</sys_created_on>
+        <sys_id>3b7891b1db6c901076a050d3e296197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc41a3ba0000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:37:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b37891b13a6c9010b5fd9ff0c2e57a7a</update_guid>
+        <update_guid_history>b37891b13a6c9010b5fd9ff0c2e57a7a:274498954,7cc8aced88ec5010409e9ce3b74e6455:-1854300693,9ba86ced9dec50101a1c8d3c6e5a6c5a:-55878805,65262799b82c501089bdd8ce08d731dd:-1175086646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Doctor Hospitals">8b100231dbac901005e46b984b961998</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-03 23:30:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>169ec32311e14ab3b83310e3bc596259</sys_id>
+        <sys_metadata>9d262799db2c501005e46b984b9619db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor Hospitals</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_app_module_9d262799db2c501005e46b984b9619db</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9d262799db2c501005e46b984b9619db">3b7891b1db6c901076a050d3e296197a</sys_update_version>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-03 23:30:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

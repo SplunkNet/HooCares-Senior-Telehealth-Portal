@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Patient Measurements - New Tab">cdb95f99db2c501076a050d3e2961943</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2020-05-02 12:38:06">fa618829dbac501076a050d3e29619d2</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 19:38:06</sys_created_on>
+        <sys_id>3a618829dbac501076a050d3e29619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cdb95f99db2c501076a050d3e2961943</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_3a618829dbac501076a050d3e29619d5</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 21:02:19</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_grid_canvas_pane_3a618829dbac501076a050d3e29619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Patient Measurements - New Tab">cdb95f99db2c501076a050d3e2961943</grid_canvas><height>10</height><portal_widget display_value="Created 2020-05-02 12:38:06">fa618829dbac501076a050d3e29619d2</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 19:38:06</sys_created_on><sys_id>3a618829dbac501076a050d3e29619d5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>cdb95f99db2c501076a050d3e2961943</sys_name><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_grid_canvas_pane_3a618829dbac501076a050d3e29619d5</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 21:02:19</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1942931742</payload_hash>
+        <record_name>cdb95f99db2c501076a050d3e2961943</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 21:02:20</sys_created_on>
+        <sys_id>60b4d469dbec501076a050d3e296192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d73273710000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 21:02:20</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>e8b4d46957ec50104c9abcfa93cdee2d</update_guid>
+        <update_guid_history>e8b4d46957ec50104c9abcfa93cdee2d:1942931742,c761882914ac5010ef6ad74682fa88d7:-128897159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 21:34:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>0acc1f2390b54c08809c52f03adfa240</sys_id>
+        <sys_metadata>3a618829dbac501076a050d3e29619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cdb95f99db2c501076a050d3e2961943</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_3a618829dbac501076a050d3e29619d5</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_3a618829dbac501076a050d3e29619d5">60b4d469dbec501076a050d3e296192e</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 21:34:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

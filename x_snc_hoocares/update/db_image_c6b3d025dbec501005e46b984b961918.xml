@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>x-ray.png</name>
+        <size_bytes>826</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:03</sys_created_on>
+        <sys_id>c6b3d025dbec501005e46b984b961918</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x-ray.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_c6b3d025dbec501005e46b984b961918</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:03</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>3bca63d4c01fb563c5ac47b856ec009a3a7978a42249d0fc9d998d57caf424ec</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>826</size_bytes>
+        <size_compressed>849</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:03</sys_created_on>
+        <sys_id>c2b3d025dbec501005e46b984b96191a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:03</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>c6b3d025dbec501005e46b984b961918</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="c2b3d025dbec501005e46b984b96191a">c2b3d025dbec501005e46b984b96191a</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:03</sys_created_on>
+        <sys_id>06b3d025dbec501005e46b984b96191a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AToDxfyJUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAALsSURBVFiF7Zc/a9tAGMZ/FkYcqohLhgwtCK9NaZrGtFCc0Vk8JR/ItBDar9NObsFzyeTUNaRZg8cOoi5CHMKcOujOOQlZlo07tPSF46Q73T3P++d079tI0xSAs7OzJuAAru6b7FYWgAISQI1GowVAI01TA+4CQjdXE3B2BK40gQSQuiWj0WjR6PV6BtwD9nQv+DMWkEAM/NJ9YrQUGvxgMJle7Rg4J5fHR6/1owIWtum9wWR61W638TwPIcROgaWUxHHMYDK9ujw+eoZ2gx14AqgEj6KIOI6RUuI4DkophBB4nofv+8vvZrNZbl0QBMU9TZw5TTJfm1YJHoYhrYtzDvp9vM4J8fia+XBI+OEjQI7E4e0NAN+fPL1Hvd97iWkCbW20x3FM6+KcR2/f0HDdDPC0y4NXL7P5T58Jw7B0rbFIEAT2sFML2IiUkla/vwQ30nBdWv0+Ukog09xoX/ZelNoEHMfB65yUznmdExxnu19G7VVKKeLxdelcPL5GKQVkPrf9XnzfmoAQgvlwSJokufE0SZgPhwghCIKg6GeAleOw5m9XPE5SR3urcArmetz+vkrrWgTMZlUB5J928U+7PH7/LjduwFdpbUulC6rAd7Wu9oVTNOnh7U3p2KZSm0DZ5ttaaCsC/y3w3wL/rAV2lfX+vQSMC1TZpO3jOuauewHZmE2yfN00pJTLq9XIbDarvXnVBWSyJhuzyX25JCHL/SCfnNa51daJScvNq8ZUjV6v5wI+8JCKwqTdbrO/v18LLAxD7u7uSud0YfID+AlExgKSrFxCFw12aeYADCbTL8BaEgb88vioq4dMfBVLMwmoOsXpMocfTKbjKktY4B3ysbW6OF1TnpveLt++lpGwwF9oLY2fbQLl5XmVaGKCLE58TeKbTcICf67BI92kAVolawmsIOEbSwC25hEbgNcmUEJiT5MYA8bnEVlw1QbfiECBhKebqdMSMtPHm4BvTMAiYYLSHFVzxJJNwAF+Ax21mclIiUr8AAAAAElFTkSuQmCCi+1jIDoDAAA=</data>
+        <length>1120</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="c2b3d025dbec501005e46b984b96191a">c2b3d025dbec501005e46b984b96191a</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:03</sys_created_on>
+        <sys_id>86b3d025dbec501005e46b984b96191a</sys_id>
+    </sys_attachment_doc>
+</record_update>

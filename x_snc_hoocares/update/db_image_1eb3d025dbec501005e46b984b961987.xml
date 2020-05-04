@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>aed-2.png</name>
+        <size_bytes>807</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:04</sys_created_on>
+        <sys_id>1eb3d025dbec501005e46b984b961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>aed-2.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_1eb3d025dbec501005e46b984b961987</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:04</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>f5bf1450ec49c50bcb0f2d465a3f5cef687898bd0d0950ee8391e0b38b7e6ab5</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>807</size_bytes>
+        <size_compressed>830</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:04</sys_created_on>
+        <sys_id>96b3d025dbec501005e46b984b9619a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:04</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>1eb3d025dbec501005e46b984b961987</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="96b3d025dbec501005e46b984b9619a2">96b3d025dbec501005e46b984b9619a2</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:04</sys_created_on>
+        <sys_id>d6b3d025dbec501005e46b984b9619a2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AScD2PyJUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAALZSURBVFiFtZdBa9swFMd/DiWYEMroYUeTa1vWdew0dk0p/VA59UOVknPpqSwLtN2x6DhKGcMYYYK9Q/ScF1d2rOA9EI6kRP+fnt5T/KKyLAG4uLg4AAbA0D0P6NdWQAHkQDGfz1cAUVmWIj4EYteGDmDQk3jhAHLAupbP5/NVNJ1ORXwEHLpnzP/xgAUy4K975rLL2Il/nC2W9z0Lb9n1+dk397EAVtr1o9lieT+ZTBiNRsRx3KuwtZYsy5gtlvfX52efcMegAy8GehM3xmz1kyTRXYmzgUS7tF53fvL8yMnz40Z1s3alKYHWV7RjjKEsS6Ioejdes4GQ9G6nv562+uKFp+PTd9/tBOChr87UNxdiOwGMMSRJwvj2phpLL68q4frc0/FptdO2nXcC0OJ6kZPnR3B935wGFBOPvb6+bo03Bp8WTy+vthZJL6+qCPfNiUe0N5rMC1AXl74IGWOqxce3N+/mBFCPBwHAxrVaXFuSJF53a0AdG8EAekFtItYG2LbjYACfuL7d9Pg+FnQR1VNOQCQQ97GdHtC708EnJsfQ9Ju9AXQk60tHm4DocYkJnaLBADqdJM2MMd7FfeK+9A0CaIIAGhffR7wVwAcBeFNvX/GdAHUIfbv1Id4JoA4hnpCYgOZj6WJyDxRdIRLnCW17ihcCsFINa23je2GVkp5/uC7i1lr5WGkesCmXLECWZUDzy2moi7W4rO20cqCIptPpEBgDH2gpTCaTCUdHR53E3t7eeHl58c65wuQ38AdIxQOWdbmEKxp0aTYAmC2Wd8BOCBG/Pj/77oYkvuqlmQWKLsVp9Q4/Wywf2jyhxL+yHVvNxemO8lyeunz74YNQ4l/cLuWcNYC/PG8zBxazjpOxg/ipIZT4ZyeeumZFqMl2AjRAjMUTgN55SoB4ZwAPxKGDeADkzFPWwdVZPAigBjFybeimctauz0LEgwEUhASlpKqkWB4iDvAPINANqB06s6QAAAAASUVORK5CYIIXvDfIJwMAAA==</data>
+        <length>1096</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="96b3d025dbec501005e46b984b9619a2">96b3d025dbec501005e46b984b9619a2</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:04</sys_created_on>
+        <sys_id>5ab3d025dbec501005e46b984b9619a2</sys_id>
+    </sys_attachment_doc>
+</record_update>

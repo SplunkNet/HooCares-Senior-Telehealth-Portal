@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Fitbit Profile" max_length="40" name="x_snc_hoocares_import_fitbit_profile" sizeclass="14" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_encodedid" label="encodedId" max_length="40" name="u_encodedid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_height" label="height" max_length="40" name="u_height" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_heightunit" label="heightUnit" max_length="40" name="u_heightunit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_weight" label="weight" max_length="40" name="u_weight" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_weightunit" label="weightUnit" max_length="40" name="u_weightunit" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Simulate device input</name>
+        <run_as display_value="Admin User">931b5705db24501005e46b984b9619ff</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2020-05-03 14:02:06</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var sensorTypesGR = new GlideRecord('x_snc_hoocares_sensor_types');
+sensorTypesGR.query();
+
+while (sensorTypesGR.next())
+	HooCaresUtils.createMeasurementsForSensorType(sensorTypesGR.sys_id);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-03 14:02:55</sys_created_on>
+        <sys_id>ba1e3f2ddbe4901076a050d3e29619f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Simulate device input</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sysauto_script_ba1e3f2ddbe4901076a050d3e29619f6</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 14:20:15</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

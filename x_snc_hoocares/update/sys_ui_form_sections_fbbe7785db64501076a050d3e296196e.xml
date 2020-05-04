@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fbbe7785db64501076a050d3e296196e" sys_domain="global" table="x_snc_hoocares_patient" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rjsavage</sys_created_by>
+            <sys_created_on>2020-05-02 00:47:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffbe7785db64501076a050d3e2961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hoocares_patient" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">fbbe7785db64501076a050d3e296196e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">33be7785db64501076a050d3e296196d</sys_ui_section>
+            <sys_updated_by>rjsavage</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:47:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rjsavage</sys_created_by>
+            <sys_created_on>2020-05-02 00:47:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbbe7785db64501076a050d3e2961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hoocares_patient" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">fbbe7785db64501076a050d3e296196e</sys_ui_form>
+            <sys_ui_section caption="Admin" display_value="Admin" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">fbbe7785db64501076a050d3e296196d</sys_ui_section>
+            <sys_updated_by>rjsavage</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:47:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rjsavage</sys_created_by>
+            <sys_created_on>2020-05-02 00:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77fe3b85db64501076a050d3e29619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hoocares_patient" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">fbbe7785db64501076a050d3e296196e</sys_ui_form>
+            <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_snc_hoocares_patient" sys_domain="global" view="a62bf3c1db64501076a050d3e296191a">b7fe3b85db64501076a050d3e29619a1</sys_ui_section>
+            <sys_updated_by>rjsavage</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:49:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_hoocares_patient</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rjsavage</sys_created_by>
+            <sys_created_on>2020-05-02 00:47:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbbe7785db64501076a050d3e296196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hoocares_patient</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fbbe7785db64501076a050d3e296196e</sys_update_name>
+            <sys_updated_by>rjsavage</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:47:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="admin" name="admin">a62bf3c1db64501076a050d3e296191a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

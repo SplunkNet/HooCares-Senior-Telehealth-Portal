@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Patient Dashboard - New Tab">9f9401b1db2c901076a050d3e2961917</canvas_page>
+        <name>Patient Dashboard - New Tab</name>
+        <page display_value="PA Patient Dashboard - New Tab">139401b1db2c901076a050d3e2961917</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-03 19:10:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f9401b1db2c901076a050d3e2961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Dashboard - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_tabs_1f9401b1db2c901076a050d3e2961919</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:10:09</sys_updated_on>
+    </pa_tabs>
+</record_update>

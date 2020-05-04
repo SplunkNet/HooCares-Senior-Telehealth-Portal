@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var data = JSON.parse("$[jvar_data]");
+var id = "$[jvar_sysid]";
+
+addLateLoadEvent(function() {
+	fixDateTimeFields();
+});
+var btn = document.getElementById('btn-update');
+btn.onclick = updateData;
+
+var heartRateChart, weightChart, tempChart, cholesterolChart;
+function drawCharts(data) {
+	/*********************** HEART RATE GRAPH *************************/
+	var heartRateCtx = document.getElementById('heartRateChart').getContext('2d');
+	heartRateChart = new Chart(heartRateCtx, {
+		type: 'line',
+		data: {
+			labels: data.heartRate.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				label: 'Heart Rate',
+				data: data.heartRate.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+				],
+				orderColor: [
+					'rgba(255, 99, 132, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Heart Rate Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Heart Rate (BPM)'
+					}
+				}],
+			}
+		}
+	});
+
+	/*********************** WEIGHT GRAPH *************************/
+
+	var weightCtx = document.getElementById('weightChart').getContext('2d');
+	weightChart = new Chart(weightCtx, {
+		type: 'line',
+		data: {
+			labels: data.weight.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				label: 'Weight (lbs)',
+				data: data.weight.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(54, 162, 235, 0.2)',
+				],
+				borderColor: [
+					'rgba(54, 162, 235, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Weight Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Weight'
+					}
+				}]
+			}
+		}
+	});
+
+	/*********************** TEMPERATURE GRAPH *************************/
+
+	var tempCtx = document.getElementById('temperatureChart').getContext('2d');
+	tempChart = new Chart(tempCtx, {
+		type: 'line',
+		data: {
+			labels: data.temperature.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.temperature.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(255, 206, 86, 0.2)',
+				],
+				borderColor: [
+					'rgba(255, 206, 86, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Temperature Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						min: 85,
+						beginAtZero: false,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Temperature (F)'
+					}
+				}]
+			}
+		}
+	});
+	
+	/*********************** CHOLESTEROL GRAPH *************************/
+
+	var cholCtx = document.getElementById('cholesterolChart').getContext('2d');
+	cholesterolChart = new Chart(cholCtx, {
+		type: 'line',
+		data: {
+			labels: data.cholesterol.map(function(rec) {
+				return rec.date;
+			}),
+			datasets: [{
+				data: data.cholesterol.map(function(rec) {
+					return rec.value;
+				}),
+				backgroundColor: [
+					'rgba(75, 192, 192, 0.2)',
+				],
+				borderColor: [
+					'rgba(75, 192, 192, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Cholesterol Measurements',
+			},
+			legend: {
+				display: false
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true,
+						fill: false
+					},
+					scaleLabel: {
+						display: true,
+						labelString: 'Cholesterol (mg/dL)'
+					}
+				}]
+			}
+		}
+	});
+}
+
+
+
+function updateData() {
+	var ga = new GlideAjax('HooCaresUtilsAJAX');
+	ga.addParam('sysparm_name', 'getMeasurements');
+	ga.addParam('sysparm_sysid', id);
+	ga.addParam('sysparm_start_date', gel('start-date').value);
+	ga.addParam('sysparm_end_date', gel('end-date').value);
+	ga.getXML(function(response) {
+		var data = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+		var charts = [heartRateChart, weightChart, tempChart, cholesterolChart];
+		var indexTableMap = {
+			0: 'heartRate',
+			1: 'weight',
+			2: 'temperature',
+			3: 'cholesterol'
+		};
+		for(var i = 0; i < charts.length; ++i) {
+			charts[i].config.data.labels = data[indexTableMap[i]].map(function(rec) {
+				return rec.date;
+			});
+			charts[i].config.data.datasets[0].data = data[indexTableMap[i]].map(function(rec) {
+					return rec.value;
+			});
+			charts[i].update();
+		}
+	});
+}
+
+function fixDateTimeFields() {
+	var startDateDiv = gel('start-date-container');
+	var endDateDiv = gel('end-date-container');
+	var startDate = document.getElementsByTagName('input')[0];
+	var endDate = document.getElementsByTagName('input')[1];
+	startDate.id = 'start-date';
+	endDate.id = 'end-date';
+	var startDateBtn = jQuery('#start-date-container button')[0];
+	var endDateBtn = jQuery('#end-date-container button')[0];
+	startDateBtn.id = 'anchordate_timex_start';
+	endDateBtn.id = 'anchordate_timex_end';
+	startDateBtn.setAttribute('onclick', "new GwtDateTimePicker('start-date', 'yyyy-MM-dd HH:mm:ss', true);");
+	endDateBtn.setAttribute('onclick', "new GwtDateTimePicker('end-date', 'yyyy-MM-dd HH:mm:ss', true);");
+}
+
+drawCharts(data);
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_snc_hoocares_measurements2.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate var="jvar_data">
+		var sysID = RP.getParameterValue('sysparm_id')
+		if (sysID == null || sysID == '')
+			sysID = gs.getUserID();
+		
+		var patient = new GlideRecord('x_snc_hoocares_patient');
+		patient.get(sysID);
+		var dataArr = x_snc_hoocares.HooCaresUtils.getMeasurements(sysID);
+		var startDate = gs.daysAgo(7).toString();
+		var endDate = new GlideDateTime().toString();
+		
+		JSON.stringify(dataArr);
+	</g2:evaluate>
+	
+	<j2:set var="jvar_sysid" value="$[sysID]"/>
+	
+	<div id="main-container" width="400px">
+		<h2>$[patient.first_name + ' ' + patient.last_name]</h2>
+		
+		<div class='date-container' id='start-date-container'>
+			<span>From Date/Time</span>
+			<g:ui_date_time id="start-date" value=""/>
+		</div>
+		<div class='date-container' id='end-date-container'>
+			<span>To Date/Time</span>
+			<g:ui_date_time id="end-date" value=""/>
+			<input id="btn-update" type="button" value="Update Charts"></input>
+		</div>
+		
+		<div class="graph-container">
+			<canvas id="heartRateChart"></canvas>
+		</div>
+		<div class="graph-container">
+			<canvas id="weightChart"></canvas>
+		</div>
+		<div class="graph-container">
+			<canvas id="temperatureChart"></canvas>
+		</div>
+		<div class="graph-container">
+			<canvas id="cholesterolChart"></canvas>
+		</div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	
+	<style>
+		h2 {
+			margin-left: 5%;
+		},
+		
+		.graph-container {
+		  	margin-bottom: 100px !important;
+		}
+		
+		.date-container {
+			margin-left: 5%;
+			width: 25%;
+		}
+	</style>
+
+</j:jelly>]]></html>
+        <name>measurements2</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-03 23:25:30</sys_created_on>
+        <sys_id>630f3df1dbec901076a050d3e29619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>measurements2</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_ui_page_630f3df1dbec901076a050d3e29619e2</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 23:27:08</sys_updated_on>
+    </sys_ui_page>
+</record_update>

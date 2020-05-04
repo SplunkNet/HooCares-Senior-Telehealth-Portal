@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient Doctor Pairs" max_length="40" name="x_snc_hoocares_patient_doctor_pairs" sizeclass="1" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Begin Date" max_length="40" name="begin_date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_snc_hoocares_doctor" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_hoocares_patient" type="reference"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

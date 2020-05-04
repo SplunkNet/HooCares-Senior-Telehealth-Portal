@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request a Visit">db1ac1b5db2c901076a050d3e296191f</sc_cat_item>
+        <sc_category display_value="HooCares">b7761dfddb2c901076a050d3e2961998</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-03 20:29:00</sys_created_on>
+        <sys_id>92a6ddfddb2c901076a050d3e29619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HooCares.Request a Visit</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sc_cat_item_category_92a6ddfddb2c901076a050d3e29619c4</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:29:00</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

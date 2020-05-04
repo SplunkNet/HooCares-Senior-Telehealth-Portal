@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="core_company" label="Pharmacy" max_length="40" name="x_snc_hoocares_pharmacy" sizeclass="10000" type="collection">
+        <element label="Hours" max_length="40" name="hours" type="string"/>
+        <element label="pharmacy" max_length="40" name="pharmacy" type="boolean"/>
+    </element>
+</database>

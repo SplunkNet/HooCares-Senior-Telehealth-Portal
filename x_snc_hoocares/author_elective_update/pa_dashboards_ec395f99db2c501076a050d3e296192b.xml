@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="DELETE">
+        <active>true</active>
+        <breakdown_source/>
+        <color>#ffffff</color>
+        <disable_multiple_element>false</disable_multiple_element>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Patient Measurements</name>
+        <no_tabs>false</no_tabs>
+        <order>0</order>
+        <owner display_value="Jeremy Le">675bd705db24501005e46b984b961952</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 16:44:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec395f99db2c501076a050d3e296192b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patient Measurements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_dashboards_ec395f99db2c501076a050d3e296192b</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:46:11</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>pa_dashboards_ec395f99db2c501076a050d3e296192b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards"><pa_dashboards action="INSERT_OR_UPDATE"><active>true</active><breakdown_source/><color>#ffffff</color><disable_multiple_element>false</disable_multiple_element><group/><groups/><is_breakdown>false</is_breakdown><managed_breakdown/><managed_publisher/><name>Patient Measurements</name><no_tabs>false</no_tabs><order>0</order><owner display_value="Jeremy Le">675bd705db24501005e46b984b961952</owner><restrict_to_roles/><role_override>true</role_override><roles/><should_migrate_permissions>false</should_migrate_permissions><sys_class_name>pa_dashboards</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 16:44:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec395f99db2c501076a050d3e296192b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Patient Measurements</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>pa_dashboards_ec395f99db2c501076a050d3e296192b</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 16:46:11</sys_updated_on><users/><visible_to>2</visible_to></pa_dashboards></record_update>]]></payload>
+        <payload_hash>136796441</payload_hash>
+        <record_name>Patient Measurements</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 16:46:11</sys_created_on>
+        <sys_id>e81a57d9db2c501076a050d3e2961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d647f0a70000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:46:11</sys_updated_on>
+        <type>Dashboard</type>
+        <update_guid>641a57d91f2c501025d1c3e1919b1d69</update_guid>
+        <update_guid_history>641a57d91f2c501025d1c3e1919b1d69:136796441,320a17d9152c50102bc198a4a9e603f7:1644816546,cdb953d9ff2c5010aef8c8c79926f06c:136796441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Measurements">b94b107ddb28901076a050d3e2961987</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:09:34</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards">pa_dashboards</sys_db_object>
+        <sys_id>c2fd6c0f9c1f41449bd55086f17cfc01</sys_id>
+        <sys_metadata>ec395f99db2c501076a050d3e296192b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Measurements</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>pa_dashboards_ec395f99db2c501076a050d3e296192b</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_ec395f99db2c501076a050d3e296192b">e81a57d9db2c501076a050d3e2961969</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:09:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>massage.png</name>
+        <size_bytes>905</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>a6b3d025dbec501005e46b984b9619e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>massage.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_a6b3d025dbec501005e46b984b9619e6</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>ebd96fbf96ad75cb86202018b771de5278354206dce01002e7c5493c3f729fc9</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>905</size_bytes>
+        <size_compressed>928</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>a2b3d025dbec501005e46b984b9619e8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>a6b3d025dbec501005e46b984b9619e6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="a2b3d025dbec501005e46b984b9619e8">a2b3d025dbec501005e46b984b9619e8</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>e2b3d025dbec501005e46b984b9619e8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AYkDdvyJUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAAM7SURBVFiFxZfPaxNBGIafhJAuaYma0lQrLUG8pKG/8CReU/Fcit4UvYhnPegh2NKbiPgP6EE8WBFvBTFHlR7aYpqS7EVK3EMDQqNIEpZsuvGQmXTTZpPsssEPhtnsJvM+8807m/l8jUYDgMXFxQDgB4KiD+Bt1AETqAFmOp2uA/gajYYUDwKKaEEB4PdI3BQANUAXrZZOp+u+ZDIpxUNAWPQKg8mADlSBv6KvyVkqQjyaymQ3PRZui7X52avi0gTq1tSHUpnsZiwWIxQKoSiKp8K6rlOtVkllsptr87MziGWwGk8BBiIOnBxT+swv3S7bQMQ7QLQ0pcu9cruT8EsSx3FwcEC9Xm+7NzU15YrC9Va7/PkTwclJAPLxhNth/kvqvQH4cf0GuqqiqyoAmqahaZrjcVwtwcTEBMVikf2lZQCm1RzQXApN0xz5wXUGDMNoE7deO8mEKwApYBV3C9EToFgstvWdxPPxBI1azRVEVwBN0zAMg8DLFxiGYSsOoM4ttP22X4ieGYjn9lDiceJ7u6eeSXFpunw8QcM0W21azfU0ZMddUCqViEQiAPj8TUZf4PirJ1881lmqiRlbsU4wttvQuHcXVlbJxxNc+vjh1JZzGnZvS9slGFIUptUcF1aesr+0TOztG6bVHL/X37sCsAvbDBQeP+HMl69cfP6Mc7duAvDz9h0qW9sUV1YHCxCJRBgaGuJwY4PA+XHGHz1Eu/+AytY20WjU0zODbQaGh4c5Ojri8NVr9HfrVCoVxsbGPD+wdP0vCIfDhMNhAEZHRz0VliFNaA5k9O5hSoC6paHr+sAULWO3NP0cl0s6QLVaHQiEPJbLj0LT9CWTySAwApylS2ESi8Vab8deUSqVKBQKHZ+JwuQX8AcoB2hmQKdZLiGKBmtp5gdIZbLfgJ4QUnxtfvaauCX9dbI00wGzn+K0dYZPZbI73TJhEb9Cu7fsi9Me5bnsreXb904QFvEFMUu5zlaAzuV5txBgCk2fjAiIXSuERXxOiJdF06WQXfQEsIEYkZkArDMv40C8b4AOEGEBsQPINS/TNFff4o4ATkCERAuKRzWaqa86EXcMYIGQppRbVW6xmhNxgH9h95w1ZxZqLwAAAABJRU5ErkJggiCHGo+JAwAA</data>
+        <length>1224</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="a2b3d025dbec501005e46b984b9619e8">a2b3d025dbec501005e46b984b9619e8</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>66b3d025dbec501005e46b984b9619e8</sys_id>
+    </sys_attachment_doc>
+</record_update>

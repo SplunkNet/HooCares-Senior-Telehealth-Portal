@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_stages>{"ends":["03513f59db6c501076a050d3e296193b"],"activities":{},"stages":{},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>c7513f59db6c501076a050d3e296193b,4b51fb59db6c501076a050d3e296196f,8b51fb59db6c501076a050d3e2961970</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>c7513f59db6c501076a050d3e296193b,4b51fb59db6c501076a050d3e296196f,8b51fb59db6c501076a050d3e2961970</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Take Measurement</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">c7513f59db6c501076a050d3e296193b</start>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8351fb59db6c501076a050d3e296196e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-03 14:13:52</sys_updated_on>
+        <table>x_snc_hoocares_sensor_types</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Take Measurement">6bf0abdddb2c501076a050d3e29619a1</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Take Measurement</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 17:16:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bf0abdddb2c501076a050d3e29619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Take Measurement</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>wf_workflow_6bf0abdddb2c501076a050d3e29619a1</sys_update_name>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:16:26</sys_updated_on>
+        <table>x_snc_hoocares_sensor_types</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>c7513f59db6c501076a050d3e296193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Take Measurement">8351fb59db6c501076a050d3e296196e</workflow_version>
+        <x>34</x>
+        <y>22</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c7513f59db6c501076a050d3e296193b"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">c7513f59db6c501076a050d3e296193b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8b513f59db6c501076a050d3e296193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>03513f59db6c501076a050d3e296193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Take Measurement">8351fb59db6c501076a050d3e296196e</workflow_version>
+        <x>846</x>
+        <y>423</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=03513f59db6c501076a050d3e296193b"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Take and assign measurements</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4b51fb59db6c501076a050d3e296196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:42:48</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Take Measurement">8351fb59db6c501076a050d3e296196e</workflow_version>
+        <x>217</x>
+        <y>9</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4b51fb59db6c501076a050d3e296196f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b51fb59db6c501076a050d3e296196f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4f51fb59db6c501076a050d3e296196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:42:48</sys_updated_on>
+        <value>var patientGR = new GlideRecord('x_snc_hoocares_patient');&#13;
+patientGR.query();&#13;
+&#13;
+while (patientGR.next())&#13;
+{&#13;
+	var measurement = HooCaresUtils.createMeasurement(current.default_range_min, current.default_range_max, 10);&#13;
+&#13;
+	var measurementGR = new GlideRecord('x_snc_hoocares_base_measurements');&#13;
+	measurementGR.initialize();&#13;
+&#13;
+	measurementGR.measurement_date = new GlideDateTime().getDisplayValue();&#13;
+	measurementGR.patient = patientGR.sys_id;&#13;
+	measurementGR.u_value_dec = parseFloat(measurement);&#13;
+	measurementGR.unit = current.measurement_units;&#13;
+	measurementGR.type = current.name;&#13;
+	measurementGR.source = current.sensor_id;&#13;
+	measurementGR.insert();&#13;
+}&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b51fb59db6c501076a050d3e296196f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4f51fb59db6c501076a050d3e296196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:42:48</sys_updated_on>
+        <value>var patientGR = new GlideRecord('x_snc_hoocares_patient');&#13;
+patientGR.query();&#13;
+&#13;
+while (patientGR.next())&#13;
+{&#13;
+	var measurement = HooCaresUtils.createMeasurement(current.default_range_min, current.default_range_max, 10);&#13;
+&#13;
+	var measurementGR = new GlideRecord('x_snc_hoocares_base_measurements');&#13;
+	measurementGR.initialize();&#13;
+&#13;
+	measurementGR.measurement_date = new GlideDateTime().getDisplayValue();&#13;
+	measurementGR.patient = patientGR.sys_id;&#13;
+	measurementGR.u_value_dec = parseFloat(measurement);&#13;
+	measurementGR.unit = current.measurement_units;&#13;
+	measurementGR.type = current.name;&#13;
+	measurementGR.source = current.sensor_id;&#13;
+	measurementGR.insert();&#13;
+}&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Take and assign measurements">4b51fb59db6c501076a050d3e296196f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4351fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for next measurement</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8b51fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Take Measurement">8351fb59db6c501076a050d3e296196e</workflow_version>
+        <x>454</x>
+        <y>22</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8b51fb59db6c501076a050d3e2961970"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>03513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>07513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>0b513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>0f51fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>43513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>frequency</value>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>47513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4f513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>83513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>87513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8b513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8f513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>c3513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>field</value>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>c7513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>cb513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>cf51fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>c3513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>field</value>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>0f51fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>47513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>cf51fb59db6c501076a050d3e2961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>cb513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>43513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>frequency</value>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8f513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4f513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8b513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>87513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>83513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>c7513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>07513f59db6c501076a050d3e2961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>03513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b51fb59db6c501076a050d3e2961970</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>0b513f59db6c501076a050d3e2961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for next measurement">8b51fb59db6c501076a050d3e2961970</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>8b513f59db6c501076a050d3e296193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4351fb59db6c501076a050d3e2961970</condition>
+        <from display_value="Take and assign measurements">4b51fb59db6c501076a050d3e296196f</from>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>07513f59db6c501076a050d3e296193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <to display_value="Wait for next measurement">8b51fb59db6c501076a050d3e2961970</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8b513f59db6c501076a050d3e296193a</condition>
+        <from display_value="Wait for next measurement">8b51fb59db6c501076a050d3e2961970</from>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>43513f59db6c501076a050d3e296193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <to display_value="Take and assign measurements">4b51fb59db6c501076a050d3e296196f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8b513f59db6c501076a050d3e296193b</condition>
+        <from display_value="Begin">c7513f59db6c501076a050d3e296193b</from>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>4f513f59db6c501076a050d3e296193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <to display_value="Take and assign measurements">4b51fb59db6c501076a050d3e296196f</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 18:27:56</sys_created_on>
+        <sys_id>0751fb59db6c501076a050d3e296196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rjsavage</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:27:56</sys_updated_on>
+        <workflow_version display_value="Take Measurement">8351fb59db6c501076a050d3e296196e</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=6bf0abdddb2c501076a050d3e29619a1^sys_id!=8351fb59db6c501076a050d3e296196e">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

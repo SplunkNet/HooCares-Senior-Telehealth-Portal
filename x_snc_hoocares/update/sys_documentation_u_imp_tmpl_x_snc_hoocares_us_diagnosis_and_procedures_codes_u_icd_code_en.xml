@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_icd_code" label="ICD Code" language="en" table="u_imp_tmpl_x_snc_hoocares_us_diagnosis_and_procedures_codes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_icd_code</element>
+            <help/>
+            <hint/>
+            <label>ICD Code</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_snc_hoocares_us_diagnosis_and_procedures_codes</name>
+            <plural>ICD Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-03 22:15:12</sys_created_on>
+            <sys_id>bdfee171dbac901076a050d3e296195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ICD Code</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_snc_hoocares_us_diagnosis_and_procedures_codes_u_icd_code_en</sys_update_name>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-03 22:15:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

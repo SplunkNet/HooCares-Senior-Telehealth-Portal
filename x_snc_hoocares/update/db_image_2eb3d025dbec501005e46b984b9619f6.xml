@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>firstaid.png</name>
+        <size_bytes>606</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>2eb3d025dbec501005e46b984b9619f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>firstaid.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_2eb3d025dbec501005e46b984b9619f6</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>195c68ffe46bc715993ab272cdd0f4579294c014fb9e6a8195547a54d9f1efda</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>606</size_bytes>
+        <size_compressed>629</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>eeb31425dbec501005e46b984b961904</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>2eb3d025dbec501005e46b984b9619f6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="eeb31425dbec501005e46b984b961904">eeb31425dbec501005e46b984b961904</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>22b31425dbec501005e46b984b961905</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AV4Cof2JUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAAIQSURBVFiF7ZdNq9pAFIYfg4QQ5FJcdCnZ9pZaS1el2/izsvJnZV1cXZoG2m7FZRdSioQhhKSLnLGj5MMJEbvwwDDmw3mfmfOOzplUVQXAer2eAg7gSj9l3CiAEsiBMo7jAmBSVZUWdwFPmisAzkjipQDkgJKWx3FcTMIw1OI+8CS9x21WQAEZ8Ef6XM/SE/HXUZJuRxY+i81q+Uk+lkBhLr0fJek2CAJ838fzvFGFlVJkWUaUpNvNavkOSYNpPA+4iThwOab2maPdrttNxBsgTpraaFZu3+/3jfcXi4XNMI4mGRTPP7+fXf9483bQOGPt88HxALg7QKcJ29xu+37X7ujdBZdut32vb3fcPQUPgF4PtOVwrF/CToA29470XwD8Byl4ANwdYPB5YKjr2wBKmy8NcXtDlFCnoDAaSqkxBm8MY+yTpsO/ckkBZFl2Ewh9LNeXollOwjB0gRnwio7CJAgC5vP5VWKHw4Hdbtf4TAqTX8Bv4DilXgFFXS4hRYNZmjkAUZJ+AXohtPhmtfwst7S/LkszBZTXFKenM3yUpC9dK2GIf+TcW+3FaU95rnuzfPvaBGGIf5BZ6jybAM3leVcImEftk5lAfDMhDPH3In6UprRQW/QCtEDM9EoA5syPWIhfDdAA8SQQL4DO+ZHaXFeLWwFcQPjSXHmUUy99ZiNuDWBAaFPqraq3WG4jDvAXUAAPNEqDiTIAAAAASUVORK5CYILVpFB5XgIAAA==</data>
+        <length>828</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="eeb31425dbec501005e46b984b961904">eeb31425dbec501005e46b984b961904</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>a2b31425dbec501005e46b984b961905</sys_id>
+    </sys_attachment_doc>
+</record_update>

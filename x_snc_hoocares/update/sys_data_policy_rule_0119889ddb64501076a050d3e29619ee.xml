@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_assigned_to</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 01:33:12</sys_created_on>
+        <sys_data_policy display_value="Status is Assigned">d4d8089ddb64501076a050d3e2961943</sys_data_policy>
+        <sys_id>0119889ddb64501076a050d3e29619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_assigned_to</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_data_policy_rule_0119889ddb64501076a050d3e29619ee</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:33:12</sys_updated_on>
+        <table>x_snc_hoocares_equipment</table>
+    </sys_data_policy_rule>
+</record_update>

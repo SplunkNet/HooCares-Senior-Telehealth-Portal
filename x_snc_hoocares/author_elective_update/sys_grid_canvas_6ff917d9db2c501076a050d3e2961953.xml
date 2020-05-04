@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA Patient Measurements - New Tab 2">27f917d9db2c501076a050d3e2961953</legacy_page>
+        <name>PA Patient Measurements - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 16:45:50</sys_created_on>
+        <sys_id>6ff917d9db2c501076a050d3e2961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Patient Measurements - New Tab 2</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_grid_canvas_6ff917d9db2c501076a050d3e2961953</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:45:50</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_grid_canvas_6ff917d9db2c501076a050d3e2961953</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Patient Measurements - New Tab 2">27f917d9db2c501076a050d3e2961953</legacy_page><name>PA Patient Measurements - New Tab 2</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 16:45:50</sys_created_on><sys_id>6ff917d9db2c501076a050d3e2961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Patient Measurements - New Tab 2</sys_name><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_grid_canvas_6ff917d9db2c501076a050d3e2961953</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 16:45:50</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>1795230046</payload_hash>
+        <record_name>PA Patient Measurements - New Tab 2</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 16:45:50</sys_created_on>
+        <sys_id>27f917d9db2c501076a050d3e29619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d6479ffa0000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:45:50</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>6ff917d9022c5010121d0d5733d933ab</update_guid>
+        <update_guid_history>6ff917d9022c5010121d0d5733d933ab:1795230046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 16:46:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>81530b74b59d49d48b845d79e3e1fae4</sys_id>
+        <sys_metadata>6ff917d9db2c501076a050d3e2961953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Patient Measurements - New Tab 2</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_6ff917d9db2c501076a050d3e2961953</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_6ff917d9db2c501076a050d3e2961953">27f917d9db2c501076a050d3e29619ac</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:46:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

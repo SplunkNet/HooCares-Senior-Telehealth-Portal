@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Base Measurements" max_length="40" name="x_snc_hoocares_base_measurements" sizeclass="95" type="collection">
+        <element label="Measurement Date" max_length="40" name="measurement_date" type="glide_date_time"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_hoocares_patient" type="reference"/>
+        <element label="Source" max_length="40" name="source" type="string"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <element label="Unit" max_length="40" name="unit" type="string"/>
+        <element label="Value" max_length="20" name="u_value_dec" type="decimal"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

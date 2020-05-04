@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_hoocares.HooCaresUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HooCaresUtils</name>
+        <script><![CDATA[var HooCaresUtils = Class.create();
+HooCaresUtils.prototype = {
+//     initialize: function() {
+//     },
+	
+    type: 'HooCaresUtils'
+};
+
+// Standard Normal variate using Box-Muller transform.
+// https://stackoverflow.com/questions/25582882/javascript-math-random-normal-distribution-gaussian-bell-
+HooCaresUtils.createMeasurement = function(safeMin, safeMax, variability)
+{
+	var min = safeMin - 2*variability;
+	var max = safeMax + 2*variability;
+	var skew = 1;
+
+	var u = 0, v = 0;
+	while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
+	while(v === 0) v = Math.random();
+	var num = Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+
+	num = num / 10.0 + 0.5; // Translate to 0 -> 1
+	if (num > 1 || num < 0) num = randn_bm(min, max, skew); // resample between 0 and 1 if out of range
+	num = Math.pow(num, skew); // Skew
+	num *= max - min; // Stretch to fill range
+	num += min; // offset to min
+	return num;
+};
+
+HooCaresUtils.createMeasurementsForSensorType = function(sensorTypeSysID)
+{
+	var sensorTypeGR = new GlideRecord('x_snc_hoocares_sensor_types');
+	sensorTypeGR.get(sensorTypeSysID);
+	
+	var patientGR = new GlideRecord('x_snc_hoocares_patient');
+	patientGR.query();
+
+	while (patientGR.next())
+	{
+		var measurement = HooCaresUtils.createMeasurement(sensorTypeGR.default_range_min, sensorTypeGR.default_range_max, 5);
+		if (sensorTypeGR.name == 'Weight')
+		{
+			var previousMeasurementGR = new GlideRecord('x_snc_hoocares_base_measurements');
+			previousMeasurementGR.addQuery('patient', patientGR.sys_id);
+			previousMeasurementGR.addQuery('type', 'Weight');
+			previousMeasurementGR.orderByDesc('measurement_date');
+			previousMeasurementGR.setLimit(1);
+			previousMeasurementGR.query();
+			
+			if (previousMeasurementGR.next())
+				measurement = previousMeasurementGR.u_value_dec;
+		}
+
+		var measurementGR = new GlideRecord('x_snc_hoocares_base_measurements');
+		measurementGR.initialize();
+
+		measurementGR.measurement_date = new GlideDateTime().getDisplayValue();
+		measurementGR.patient = patientGR.sys_id;
+		measurementGR.u_value_dec = parseFloat(measurement);
+		measurementGR.unit = sensorTypeGR.measurement_units;
+		measurementGR.type = sensorTypeGR.name;
+		measurementGR.source = sensorTypeGR.sensor_id;
+		measurementGR.insert();
+	}
+};
+
+HooCaresUtils.getMeasurements = function(sysID, startDate, endDate) {
+	if(startDate == '' || startDate == null) {
+		startDate = gs.daysAgo(7);
+		
+	}
+	if(endDate == '' || endDate == null) {
+		endDate = new GlideDateTime();
+	}
+	
+	var data = {
+		cholesterol: [],
+		heartRate: [],
+		temperature: [],
+		weight: [],
+		bloodSugar: [],
+		bloodOxygen: [],
+		systolic: []
+	};
+	var types = {
+		'Cholesterol': 'cholesterol',
+		'Heart Rate': 'heartRate',
+		'Temperature': 'temperature',
+		'Weight': 'weight',
+		'Blood Sugar': 'bloodSugar',
+		'Blood Oxygen Level': 'bloodOxygen',
+		'Blood Pressure Systolic': 'systolic'
+	};
+	
+	var gr = new GlideRecord('x_snc_hoocares_base_measurements');
+	gr.addQuery('patient', sysID);
+	gr.addQuery('measurement_date', '>=', startDate);
+	gr.addQuery('measurement_date', '<=', endDate);
+	gr.addNotNullQuery('u_value_dec'),
+	gr.addNotNullQuery('measurement_date'),
+	gr.orderBy('measurement_date');
+	gr.query();
+	while(gr.next()) {
+		if(types[gr.getValue('type')]) {
+			data[types[gr.getValue('type')]].push({
+				value: gr.getValue('u_value_dec'),
+				date: gr.getDisplayValue('measurement_date'),
+			});
+		}
+	}
+	return data;
+};
+
+HooCaresUtils.measurementOutOfBounds = function(type, value) {
+	value = parseFloat(value);
+	var grType = new GlideRecord('x_snc_hoocares_sensor_types');
+	grType.get('name', type);
+	if(grType.isValidRecord()) {
+		if(value <= grType.default_range_min || value >= grType.default_range_max) {
+			return true;
+		}
+	}
+	
+	return false;
+};
+
+HooCaresUtils.measurementMax = function(type, value) {
+	value = parseFloat(value);
+	var grType = new GlideRecord('x_snc_hoocares_sensor_types');
+	grType.get('name', type);
+	return grType.default_range_max;
+};
+
+HooCaresUtils.measurementMin = function(type, value) {
+	value = parseFloat(value);
+	var grType = new GlideRecord('x_snc_hoocares_sensor_types');
+	grType.get('name', type);
+	return grType.default_range_min;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rjsavage</sys_created_by>
+        <sys_created_on>2020-05-02 17:17:47</sys_created_on>
+        <sys_id>bb316fdddb2c501076a050d3e296191e</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>HooCaresUtils</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_script_include_bb316fdddb2c501076a050d3e296191e</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 03:28:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

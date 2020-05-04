@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_sources">
+    <pa_m2m_dashboard_sources action="DELETE">
+        <breakdown_source display_value="Patient">94c5c8e9dbac501076a050d3e2961990</breakdown_source>
+        <dashboard display_value="Patient Measurements">ec395f99db2c501076a050d3e296192b</dashboard>
+        <order>100</order>
+        <publisher/>
+        <sys_class_name>pa_m2m_dashboard_sources</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:50:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04f1d0e5dbec501076a050d3e296194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Measurements.Patient</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_sources_04f1d0e5dbec501076a050d3e296194b</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:50:16</sys_updated_on>
+    </pa_m2m_dashboard_sources>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>pa_m2m_dashboard_sources_04f1d0e5dbec501076a050d3e296194b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_sources"><pa_m2m_dashboard_sources action="INSERT_OR_UPDATE"><breakdown_source display_value="Patient">94c5c8e9dbac501076a050d3e2961990</breakdown_source><dashboard display_value="Patient Measurements">ec395f99db2c501076a050d3e296192b</dashboard><order>100</order><publisher/><sys_class_name>pa_m2m_dashboard_sources</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-02 20:50:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>04f1d0e5dbec501076a050d3e296194b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient Measurements.Patient</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>pa_m2m_dashboard_sources_04f1d0e5dbec501076a050d3e296194b</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-02 20:50:16</sys_updated_on></pa_m2m_dashboard_sources></record_update>]]></payload>
+        <payload_hash>-1160409530</payload_hash>
+        <record_name>94c5c8e9dbac501076a050d3e2961990</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-02 20:50:16</sys_created_on>
+        <sys_id>8cf1d0e5dbec501076a050d3e296194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d72768370000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:50:16</sys_updated_on>
+        <type>Dashboard Breakdown Source</type>
+        <update_guid>c4f1d0e590ec50108cf55272d7bc234d</update_guid>
+        <update_guid_history>c4f1d0e590ec50108cf55272d7bc234d:-1160409530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0bda583ddb28901076a050d3e29619ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-03 16:07:44</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_sources">pa_m2m_dashboard_sources</sys_db_object>
+        <sys_id>412dac477aea466eaa80dcb944bc6d01</sys_id>
+        <sys_metadata>04f1d0e5dbec501076a050d3e296194b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Measurements.Patient</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_sources_04f1d0e5dbec501076a050d3e296194b</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_sources_04f1d0e5dbec501076a050d3e296194b">8cf1d0e5dbec501076a050d3e296194d</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:07:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

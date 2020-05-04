@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Doctor" max_length="40" name="x_snc_hoocares_doctor" sizeclass="0" type="collection">
+        <element label="Specialty" max_length="40" name="specialty" type="string"/>
+    </element>
+</database>

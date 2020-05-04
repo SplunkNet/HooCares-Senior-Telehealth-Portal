@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_hoocares.FitbitDataUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utility class to process data received from Fitbit</description>
+        <name>FitbitDataUtils</name>
+        <script><![CDATA[var FitbitDataUtils = Class.create();
+FitbitDataUtils.prototype = {
+        initialize: function() {
+            //initialize vars
+            var response;
+            var responseBody;
+            var httpStatus;
+        },
+        getProfile: function() {
+            try {
+                var profileObj = {};
+                var r = new sn_ws.RESTMessageV2('x_snc_hoocares.Fitbit User Profile', 'Default GET');
+                response = r.execute();
+                responseBody = response.getBody();
+                httpStatus = response.getStatusCode();
+                gs.debug(global.JSON.stringify(responseBody));
+                gs.debug(global.JSON.stringify(httpStatus));
+
+                var profile = global.JSON.parse(responseBody).user;
+                gs.debug(global.JSON.stringify(profile));
+                profileObj['u_weight'] = profile['height'];
+                profileObj['u_weightunit'] = profile['heightUnit'];
+                profileObj['type'] = 'Weight';
+                profileObj['encodedId'] = profile['encodedId'];
+                global.JSUtil.logObject(profileObj, "Profile Obj");
+                this.addRow('x_snc_hoocares_import_fitbit_profile', profileObj);
+
+            } catch (ex) {
+                var message = ex.message;
+            }
+        },
+
+        getHeartRate: function() {
+            try {
+                var hrObj = {};
+                var r = new sn_ws.RESTMessageV2('x_snc_hoocares.Fitbit Heart Rate Log', 'Default GET');
+                //get patients with fitbit sensors
+                var fbusers = new GlideRecord('x_snc_hoocares_patient');
+                fbusers.addNotNullQuery('fitbit_id');
+                fbusers.addActiveQuery();
+                fbusers.query();
+
+                while (fbusers.next()) {
+                    //set fitbit id
+                    //gs.debug("Fitbit id " + fbusers.getValue('fitbit_id'));
+                    var fbid = fbusers.getValue('fitbit_id');
+                    r.setStringParameterNoEscape('encodedId', fbid);
+                    response = r.execute();
+                    responseBody = response.getBody();
+                    httpStatus = response.getStatusCode();
+                    gs.debug(global.JSON.stringify(responseBody));
+                    gs.debug(global.JSON.stringify(httpStatus));
+                    var data = global.JSON.parse(responseBody);
+                    gs.debug(global.JSON.stringify(data));
+                    var hr = data['activities-heart'];
+                    gs.debug(global.JSON.stringify(hr));
+                    gs.debug('length: ' + hr.length);
+                    for (var item = 0; item < hr.length; item++) {
+
+                        // gs.debug("processing hr cnt " + item);
+                        //gs.debug('datetime: ' + hr[item].dateTime);
+                        if (hr[item].value.restingHeartRate.toString() != '') {
+                            hrObj['u_measure_date'] = new GlideDateTime(hr[item].dateTime);
+                            // gs.debug('heart rate: ' + hr[item].value.restingHeartRate);
+                            hrObj['u_heart_rate'] = hr[item].value.restingHeartRate;
+                            hrObj['u_type'] = 'Heart Rate';
+                            //gs.debug("FB id " + fbid);
+                            hrObj['u_encoded_id'] = fbid;
+                            // global.JSUtil.logObject(hrObj, "Heart Rate Obj"); doesn't work
+                            this.addRow('x_snc_hoocares_import_fitbit_heart_rate', hrObj);
+                        }
+                    }
+                }
+            } catch (ex) {
+                var message = ex.message;
+            }
+        },
+        addRow: function(tableName, obj) {
+            var gr = new GlideRecord(tableName);
+            gr.initialize();
+            for (var field in obj) {
+				gs.debug("field "+field);     
+					gs.debug("field value " + obj[field]);
+                    gr[field] = obj[field];
+                }
+
+			gr.insert();
+            
+    },
+
+    type: 'FitbitDataUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-03 01:00:19</sys_created_on>
+        <sys_id>e34f342ddb20901005e46b984b96195c</sys_id>
+        <sys_mod_count>67</sys_mod_count>
+        <sys_name>FitbitDataUtils</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_script_include_e34f342ddb20901005e46b984b96195c</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-03 22:55:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value">
+    <sys_highlighted_value action="DELETE">
+        <field>u_value_dec</field>
+        <sys_class_name>sys_highlighted_value</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-04 01:01:10</sys_created_on>
+        <sys_id>9ac49ab1db20d01076a050d3e2961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_highlighted_value_9ac49ab1db20d01076a050d3e2961951</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 01:01:10</sys_updated_on>
+        <table>x_snc_hoocares_base_measurements</table>
+        <workspace display_value="HooCares">0f003f8ddb24501005e46b984b96195e</workspace>
+    </sys_highlighted_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_highlighted_value_9ac49ab1db20d01076a050d3e2961951</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value"><sys_highlighted_value action="INSERT_OR_UPDATE"><field>u_value_dec</field><sys_class_name>sys_highlighted_value</sys_class_name><sys_created_by>jle6</sys_created_by><sys_created_on>2020-05-04 01:01:10</sys_created_on><sys_id>9ac49ab1db20d01076a050d3e2961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_highlighted_value_9ac49ab1db20d01076a050d3e2961951</sys_update_name><sys_updated_by>jle6</sys_updated_by><sys_updated_on>2020-05-04 01:01:10</sys_updated_on><table>x_snc_hoocares_base_measurements</table><workspace display_value="HooCares">0f003f8ddb24501005e46b984b96195e</workspace></sys_highlighted_value></record_update>]]></payload>
+        <payload_hash>-25990720</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-04 01:01:10</sys_created_on>
+        <sys_id>89f4dab1db20d01076a050d3e29619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dd337b570000001</sys_recorded_at>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 01:01:10</sys_updated_on>
+        <type>Highlighted Value</type>
+        <update_guid>c1f4dab1ec20d010246e13115c0df4ef</update_guid>
+        <update_guid_history>c1f4dab1ec20d010246e13115c0df4ef:-25990720</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-04 01:08:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_highlighted_value">sys_highlighted_value</sys_db_object>
+        <sys_id>0ec0c0e7b3bc4169af6feb2d9216a7e1</sys_id>
+        <sys_metadata>9ac49ab1db20d01076a050d3e2961951</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_highlighted_value_9ac49ab1db20d01076a050d3e2961951</sys_update_name>
+        <sys_update_version display_value="sys_highlighted_value_9ac49ab1db20d01076a050d3e2961951">89f4dab1db20d01076a050d3e29619ef</sys_update_version>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 01:08:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_hoocares_doctor</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 19:24:04</sys_created_on>
+        <sys_id>913effd9db6c501005e46b984b9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hoocares_doctor</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>ua_table_licensing_config_913effd9db6c501005e46b984b9619bb</sys_update_name>
+        <sys_updated_by>sissazad</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:24:04</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>ua_table_licensing_config_913effd9db6c501005e46b984b9619bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_hoocares_doctor</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>sissazad</sys_created_by><sys_created_on>2020-05-02 19:24:04</sys_created_on><sys_id>913effd9db6c501005e46b984b9619bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hoocares_doctor</sys_name><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>ua_table_licensing_config_913effd9db6c501005e46b984b9619bb</sys_update_name><sys_updated_by>sissazad</sys_updated_by><sys_updated_on>2020-05-02 19:24:04</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1105799707</payload_hash>
+        <record_name>x_snc_hoocares_doctor</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 19:24:04</sys_created_on>
+        <sys_id>113effd9db6c501005e46b984b9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d6d87e970000001</sys_recorded_at>
+        <sys_updated_by>sissazad</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:24:04</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>593effd97e6c5010e517d2ec9e6784e1</update_guid>
+        <update_guid_history>593effd97e6c5010e517d2ec9e6784e1:-1105799707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sissazad</sys_created_by>
+        <sys_created_on>2020-05-02 19:39:36</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>6870715f8a664fb480d725d42bbf8f10</sys_id>
+        <sys_metadata>913effd9db6c501005e46b984b9619bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hoocares_doctor</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_913effd9db6c501005e46b984b9619bb</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_913effd9db6c501005e46b984b9619bb">113effd9db6c501005e46b984b9619e2</sys_update_version>
+        <sys_updated_by>sissazad</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:39:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

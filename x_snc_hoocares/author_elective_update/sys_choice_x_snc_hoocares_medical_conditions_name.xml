@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="name" table="x_snc_hoocares_medical_conditions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AIDS/HIV positive</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:09:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>174f5795db2c501005e46b984b9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:09:18</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anemia</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>894f5395db2c501005e46b984b961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:09:02</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asthma</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ce5395db2c501005e46b984b961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:07:12</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancer</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eafe9395db2c501005e46b984b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:07:45</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cardiovascular disease</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4ee9395db2c501005e46b984b961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:07:37</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diabetes</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>180f9395db2c501005e46b984b9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:07:55</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epilepsy</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:08:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b20fd395db2c501005e46b984b9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:08:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hypertension</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:08:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e21f1795db2c501005e46b984b961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:08:24</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychiatric Disorders</label>
+            <language>en</language>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:08:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>022f1795db2c501005e46b984b961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:08:53</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <name>x_snc_hoocares_medical_conditions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 17:07:12</sys_created_on>
+            <sys_id>24ee5395db2c501005e46b984b961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>name</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_medical_conditions_name</sys_update_name>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 17:07:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>u_value_dec</element>
+        <name>x_snc_hoocares_base_measurements</name>
+        <style>background-color:red; !important</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>jle6</sys_created_by>
+        <sys_created_on>2020-05-04 01:10:15</sys_created_on>
+        <sys_id>6aa69ef1db20d01076a050d3e29619e5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_snc_hoocares_base_measurements</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_ui_style_6aa69ef1db20d01076a050d3e29619e5</sys_update_name>
+        <sys_updated_by>jle6</sys_updated_by>
+        <sys_updated_on>2020-05-04 01:20:50</sys_updated_on>
+        <value>javascript:HooCaresUtils.measurementOutOfBounds(current.type, current.u_value_dec);</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=6aa69ef1db20d01076a050d3e29619e5"/>
+</record_update>

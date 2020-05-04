@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Hoocares Us Diagnosis And Procedures Codes" max_length="40" name="u_imp_tmpl_x_snc_hoocares_us_diagnosis_and_procedures_codes" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Diagnosis" label="Diagnosis" max_length="40" name="u_diagnosis" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ICD Code" label="ICD Code" max_length="40" name="u_icd_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ICD Code Type" label="ICD Code Type" max_length="40" name="u_icd_code_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="228" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Preferred" label="Preferred" max_length="40" name="u_preferred" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Procedure" label="Procedure" max_length="40" name="u_procedure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+    </element>
+</database>

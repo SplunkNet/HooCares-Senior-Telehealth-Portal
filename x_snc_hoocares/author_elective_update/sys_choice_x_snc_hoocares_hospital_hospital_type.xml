@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hospital_type" table="x_snc_hoocares_hospital" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GOVERNMENT - DISTRICT/AUTHORITY</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87bb8869dbac501005e46b984b9619fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:23:52</sys_updated_on>
+            <value>210</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GOVERNMENT - FEDERAL</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:24:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9edb0c69dbac501005e46b984b961903</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:24:15</sys_updated_on>
+            <value>220</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GOVERNMENT - LOCAL</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:24:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1fb0c69dbac501005e46b984b961987</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:24:34</sys_updated_on>
+            <value>230</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GOVERNMENT - STATE</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:24:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e0c8869dbac501005e46b984b9619e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:24:59</sys_updated_on>
+            <value>240</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NON-PROFIT</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:25:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c2c8c69dbac501005e46b984b961973</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:25:18</sys_updated_on>
+            <value>250</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PROPRIETARY</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc3ccc69dbac501005e46b984b961931</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:25:40</sys_updated_on>
+            <value>260</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hospital_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>REHABILITATION</label>
+            <language>en</language>
+            <name>x_snc_hoocares_hospital</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>064ccc69dbac501005e46b984b9619d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:26:02</sys_updated_on>
+            <value>270</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hospital_type</element>
+            <name>x_snc_hoocares_hospital</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:23:40</sys_created_on>
+            <sys_id>56dbc869dbac501005e46b984b961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hospital_type</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_hospital_hospital_type</sys_update_name>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:23:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

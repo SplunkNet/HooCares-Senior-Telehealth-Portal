@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="diagnosis_code" table="x_snc_hoocares_diagnostics_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>secondary syphilis of skin</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:37:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1decc21dbec501005e46b984b96194a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:37:24</sys_updated_on>
+            <value>A5139</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Helicobacter pylori [H. pylori] as the cause of diseases classified</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:38:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf2f4461dbec501005e46b984b96192f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:38:57</sys_updated_on>
+            <value>B9681</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alpers disease</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3beec061dbec501005e46b984b961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:37:53</sys_updated_on>
+            <value>C4912</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:39:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>076fc461dbec501005e46b984b96191a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:39:59</sys_updated_on>
+            <value>C4912</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Iron deficiency anemia secondary to blood loss (chronic)</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:38:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f0fc061dbec501005e46b984b9619c1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:38:26</sys_updated_on>
+            <value>D500</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>diagnosis_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alzheimer's disease with early onset</label>
+            <language>en</language>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sequence/>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb4f8461dbec501005e46b984b96195b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:39:29</sys_updated_on>
+            <value>G300</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>diagnosis_code</element>
+            <name>x_snc_hoocares_diagnostics_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sissazad</sys_created_by>
+            <sys_created_on>2020-05-02 20:37:09</sys_created_on>
+            <sys_id>b3eec061dbec501005e46b984b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>diagnosis_code</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_diagnostics_test_diagnosis_code</sys_update_name>
+            <sys_updated_by>sissazad</sys_updated_by>
+            <sys_updated_on>2020-05-02 20:37:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

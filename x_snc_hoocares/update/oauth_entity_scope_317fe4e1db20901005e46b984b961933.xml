@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
+        <name>default</name>
+        <oauth_entity display_value="fitbitOauth">dc8eaca1db20901005e46b984b9619b6</oauth_entity>
+        <oauth_entity_scope>social activity profile heartrate settings location sleep nutrition</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 23:02:24</sys_created_on>
+        <sys_id>317fe4e1db20901005e46b984b961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>oauth_entity_scope_317fe4e1db20901005e46b984b961933</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:02:24</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>

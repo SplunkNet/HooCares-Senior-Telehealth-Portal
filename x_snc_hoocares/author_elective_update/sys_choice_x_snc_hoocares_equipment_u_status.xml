@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_snc_hoocares_equipment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Need to Aquire</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86b68c1ddb64501076a050d3e2961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 01:28:18</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:28:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14080c5ddb64501076a050d3e2961956</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 02:06:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_snc_hoocares_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a318cc5ddb64501076a050d3e296193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 01:29:25</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_snc_hoocares_equipment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jle6</sys_created_by>
+            <sys_created_on>2020-05-02 01:28:18</sys_created_on>
+            <sys_id>03f7c85ddb64501076a050d3e29619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hoocares_equipment_u_status</sys_update_name>
+            <sys_updated_by>jle6</sys_updated_by>
+            <sys_updated_on>2020-05-02 01:28:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

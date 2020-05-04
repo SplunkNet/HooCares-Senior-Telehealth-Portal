@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>37</height>
+        <image/>
+        <name>drogerie.png</name>
+        <size_bytes>840</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>a6b31425dbec501005e46b984b96190b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>drogerie.png</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>db_image_a6b31425dbec501005e46b984b96190b</sys_update_name>
+        <sys_updated_by>nstodd</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <thumbnail/>
+        <width>32</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>498497d35d53d3e2a830d6c0934e51950861101637e593b1b80bcc76d42020a2</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>840</size_bytes>
+        <size_compressed>863</size_compressed>
+        <state>available</state>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>a2b31425dbec501005e46b984b96190d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:58:05</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>a6b31425dbec501005e46b984b96190b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="a2b31425dbec501005e46b984b96190d">a2b31425dbec501005e46b984b96190d</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>e2b31425dbec501005e46b984b96190d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AUgDt/yJUE5HDQoaCgAAAA1JSERSAAAAIAAAACUIBgAAACO360cAAAAJcEhZcwAACxMAAAsTAQCanBgAAAL6SURBVFiF7ZfPTxNBFMc/M1uapWmwJbYnbHrlRwHjyXgtf4nxbvDcE/8A6EGP+gfoP9CzIZoQSgly0YSQIAlLoBGsy9Ld9bAzuMXddoutRuNLptOdncz3M++93Z0nfN8HYGlpKQVIIK36FMO1DuABDuDV6/UOgPB9X4unAVO1tAKQQxL3FIAD2Ko59Xq9I6rVqhbPABOqNxmNB2ygDXxRvaN3aSrxYq3RXB+ycJetLM7fV389oBN2fabWaK6Xy2UymQymaQ5V2LZt2u02tUZzfWVxvoIKQzjxTGAk4sD1NXWeyRRBrHXrmri/vx+5WKlU+lWIK02daLHZPr291XW9W1noKxQFHgEtNUmkWZYVK2BZFoVCoSfE9M42Qkr8TqcndCyA4zhMra3Sev0G9+yM8UoFmc0ytbbK4fKTnuKDWCyA67qMz81xefiZy6Mj0nemMPJ5UvkcnucNDaDPm86PHvWjx0cAMHobGcDubAXr+Ys/A1AqlUin04nm/rsh+A+Q1G586Ij7UP02gJndnZ73P0zPJlrn7w3B13fvMfJ5vm1uAmDOzGDkboGQXB4cJF6njwfETfkSW6wHDMPA+fSRzmmLS8vCuV1AnrZwj48DNCkQAoKfEKsAIQSGYQwE8NP3dWxsDOvxMhcXF11fP8MwkFJy8PARrutejfu+j+/7CCGQMnCs9fQZFy9fxWl7GqATati2jWmaFIvFRDtIYrlcDr22sitNyY9yyQZot9vhiUMzfSzXl0rTE9VqNQ1kgRw9CpNyuczk5GQisZOTE/b29iLvqcLkCGgB5ykCD9gE5RKqaAiXZhKg1mi+BfpCaPGVxfkHakjn1/XSzAa8JMXp1Rm+1mhu9PJESPwe3bkVX5z2Kc91Hy7fNqMgQuJ31S51nMMA0eV5L1NgJkGeZBXEVhgiJL6gxM9Vs7VQnPUFiIHIak8A4Z2fM4B4YoAIiAkFsQHomJ8TJFdi8YEArkFkVNMnT4fA9e1BxAcGCEHopNSPqn7EnEHEAb4DYgVfTd0qKjYAAAAASUVORK5CYIIuV45ASAMAAA==</data>
+        <length>1140</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="a2b31425dbec501005e46b984b96190d">a2b31425dbec501005e46b984b96190d</sys_attachment>
+        <sys_created_by>nstodd</sys_created_by>
+        <sys_created_on>2020-05-02 20:58:05</sys_created_on>
+        <sys_id>66b31425dbec501005e46b984b96190d</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Base Measurements</name>
+        <order>100</order>
+        <roles>x_snc_hoocares.base_measurements_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 02:07:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7af05c51dba4501005e46b984b96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Measurements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_app_application_7af05c51dba4501005e46b984b96197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:07:36</sys_updated_on>
+        <title>Base Measurements</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
+        <file_path/>
+        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
+        <instance_name>hackathon054</instance_name>
+        <name>sys_app_application_7af05c51dba4501005e46b984b96197c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Base Measurements</name><order>100</order><roles>x_snc_hoocares.base_measurements_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 02:07:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7af05c51dba4501005e46b984b96197c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Base Measurements</sys_name><sys_overrides/><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_app_application_7af05c51dba4501005e46b984b96197c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 02:07:36</sys_updated_on><title>Base Measurements</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>724329039</payload_hash>
+        <record_name>Base Measurements</record_name>
+        <reverted_from/>
+        <source>1c8eab4ddb24501005e46b984b9619f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 02:07:36</sys_created_on>
+        <sys_id>f2f05c51dba4501005e46b984b96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d323955f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:07:36</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>3ef05c5175a450106c7fd7b13398748a</update_guid>
+        <update_guid_history>3ef05c5175a450106c7fd7b13398748a:724329039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base Measurements">aed41415dba4501005e46b984b96192a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 02:24:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>056b48e723e94554917c057fd11833f9</sys_id>
+        <sys_metadata>7af05c51dba4501005e46b984b96197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Measurements</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
+        <sys_update_name>sys_app_application_7af05c51dba4501005e46b984b96197c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_7af05c51dba4501005e46b984b96197c">f2f05c51dba4501005e46b984b96198b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:24:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
