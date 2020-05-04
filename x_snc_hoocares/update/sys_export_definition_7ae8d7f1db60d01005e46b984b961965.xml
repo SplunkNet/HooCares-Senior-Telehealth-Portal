@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>name,home_phone,email,building,u_room_number</field_list>
+        <filter/>
+        <name>ed_t_x_snc_hoocares_patient</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 05:58:06</sys_created_on>
+        <sys_id>7ae8d7f1db60d01005e46b984b961965</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ed_t_x_snc_hoocares_patient</sys_name>
+        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
+        <sys_update_name>sys_export_definition_7ae8d7f1db60d01005e46b984b961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 05:58:07</sys_updated_on>
+        <table_name>x_snc_hoocares_patient</table_name>
+        <view display_value="Exp_d7ae8d7f1db60d01005e46b984b961965" name="exp_d7ae8d7f1db60d01005e46b984b961965">bae8d7f1db60d01005e46b984b961967</view>
+    </sys_export_definition>
+</record_update>
