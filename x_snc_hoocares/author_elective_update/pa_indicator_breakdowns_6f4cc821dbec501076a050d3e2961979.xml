@@ -47,7 +47,7 @@
         <update_guid_history>fb4cc8210dec50108645d9bcbf6e0780:838898808</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Average Heart Rate">f3ca183ddb28901076a050d3e296198c</sys_audit_delete>
+        <sys_audit_delete display_value="">f3ca183ddb28901076a050d3e296198c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:07:30</sys_created_on>

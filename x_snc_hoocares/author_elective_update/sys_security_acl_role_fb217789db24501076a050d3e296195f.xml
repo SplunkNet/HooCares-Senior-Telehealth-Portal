@@ -42,7 +42,7 @@
         <update_guid_history>fb2177891b245010622c2091958c9161:-223910894</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_hoocares_patient.hoocares">a4d1bf89db24501076a050d3e29619c1</sys_audit_delete>
+        <sys_audit_delete display_value="">a4d1bf89db24501076a050d3e29619c1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>rjsavage</sys_created_by>
         <sys_created_on>2020-05-01 23:51:28</sys_created_on>

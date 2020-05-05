@@ -65,7 +65,7 @@
         <update_guid_history>b37891b13a6c9010b5fd9ff0c2e57a7a:274498954,7cc8aced88ec5010409e9ce3b74e6455:-1854300693,9ba86ced9dec50101a1c8d3c6e5a6c5a:-55878805,65262799b82c501089bdd8ce08d731dd:-1175086646</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Doctor Hospitals">8b100231dbac901005e46b984b961998</sys_audit_delete>
+        <sys_audit_delete display_value="">8b100231dbac901005e46b984b961998</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-03 23:30:06</sys_created_on>

@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>patient</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>dosage_regimen</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>drug_allergy</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>duration</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>prescription</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>refill_number</element>
-            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="82616eb9db20d01076a050d3e2961925">ce71aeb9db20d01076a050d3e29619d1</list_id>
+            <list_id display_value="x_snc_hoocares_medications" element="NULL" name="x_snc_hoocares_medications" parent="NULL" relationship="NULL" sys_domain="global" view="1b5225ca07281010328af2ae7c1ed02d">ce71aeb9db20d01076a050d3e29619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -130,7 +130,7 @@
             <sys_updated_by>jle6</sys_updated_by>
             <sys_updated_on>2020-05-04 01:55:51</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt46616eb9db20d01076a050d3e2961920" name="RPT46616eb9db20d01076a050d3e2961920">82616eb9db20d01076a050d3e2961925</view>
+            <view display_value="Rpt46616eb9db20d01076a050d3e2961920" name="RPT46616eb9db20d01076a050d3e2961920">1b5225ca07281010328af2ae7c1ed02d</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -3,7 +3,7 @@
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter table="x_snc_hoocares_patient_doctor_pairs.patient">active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             </filter>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_hoocares_patient_doctor_pairs.patient</related_list>
@@ -17,7 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_snc_hoocares_medical_conditions.patient</related_list>
@@ -31,7 +31,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>2</position>
             <related_list>x_snc_hoocares_medications.patient</related_list>
@@ -45,7 +45,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>3</position>
             <related_list>x_snc_hoocares_base_measurements.patient</related_list>
@@ -59,7 +59,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>4</position>
             <related_list>x_snc_hoocares_patient_pharmacy.patient</related_list>
@@ -73,7 +73,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
+            <list_id display_value="x_snc_hoocares_patient - Default view" name="x_snc_hoocares_patient" related_list="NULL" sys_domain="global" view="Default view">d8c36d79db6c901076a050d3e296191d</list_id>
             <order_by/>
             <position>5</position>
             <related_list>x_snc_hoocares_equipment.u_assigned_to</related_list>
@@ -86,7 +86,7 @@
             <sys_updated_on>2020-05-03 21:26:13</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Patient - Default view</calculated_name>
+            <calculated_name>x_snc_hoocares_patient - Default view</calculated_name>
             <filter/>
             <name>x_snc_hoocares_patient</name>
             <order_by/>

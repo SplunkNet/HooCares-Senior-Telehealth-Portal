@@ -52,7 +52,7 @@
         <update_guid_history>60a1bb893724501062b5c76ade64f9c3:1763234830</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Equipment">59389095dba4501005e46b984b9619d8</sys_audit_delete>
+        <sys_audit_delete display_value="">59389095dba4501005e46b984b9619d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-02 02:39:10</sys_created_on>

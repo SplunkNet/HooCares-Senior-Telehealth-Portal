@@ -12,7 +12,7 @@
         <name>Patient Dashboard</name>
         <no_tabs>false</no_tabs>
         <order>1</order>
-        <owner display_value="Admin User">931b5705db24501005e46b984b9619ff</owner>
+        <owner display_value="">931b5705db24501005e46b984b9619ff</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>

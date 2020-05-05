@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Import Fitbit Profile" max_length="40" name="x_snc_hoocares_import_fitbit_profile" sizeclass="14" type="collection">
+    <element extends="sys_import_set_row" label="Import Fitbit Profile" max_length="40" name="x_snc_hoocares_import_fitbit_profile" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_encodedid" label="encodedId" max_length="40" name="u_encodedid" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_height" label="height" max_length="40" name="u_height" type="string"/>

@@ -65,7 +65,7 @@
         <update_guid_history>b9f21c1575a45010745e59811cdf1b32:1714860312</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Doctors">f2ef3751dbac501005e46b984b9619fd</sys_audit_delete>
+        <sys_audit_delete display_value="">f2ef3751dbac501005e46b984b9619fd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sissazad</sys_created_by>
         <sys_created_on>2020-05-02 19:31:33</sys_created_on>

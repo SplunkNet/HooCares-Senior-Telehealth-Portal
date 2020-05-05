@@ -144,7 +144,7 @@
         <update_guid_history>581c9c6dcaec50105326e13eda420faa:910133922,9adb586d25ec5010969f53827bd0ee74:163996099,6bd25ce568ec5010e32e3ea332ff920d:1272738461,58c21ce509ec5010aa8068e2cf60a881:-1753677096,946218e531ec501012e74f19313b5e69:1661527244,9152d4e50cec50101959ae52fa7bd46a:343044069,08a1dca559ec5010bbc142debb0800b2:19897557,6ac6c42d90ac5010b1e7c73dfd9af9c7:-372890793</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Heart Rate">307a143ddb28901076a050d3e29619c2</sys_audit_delete>
+        <sys_audit_delete display_value="">307a143ddb28901076a050d3e29619c2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:05:56</sys_created_on>

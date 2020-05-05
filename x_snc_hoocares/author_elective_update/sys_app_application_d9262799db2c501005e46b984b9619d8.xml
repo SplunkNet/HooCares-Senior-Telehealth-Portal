@@ -52,7 +52,7 @@
         <update_guid_history>11262799102c501039e54cc3e5386bdb:-1575513009</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Doctor Hospital">dcd8eceddbec501005e46b984b9619a2</sys_audit_delete>
+        <sys_audit_delete display_value="">dcd8eceddbec501005e46b984b9619a2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-02 22:30:13</sys_created_on>

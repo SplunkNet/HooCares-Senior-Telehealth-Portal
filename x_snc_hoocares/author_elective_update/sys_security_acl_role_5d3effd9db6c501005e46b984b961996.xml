@@ -42,7 +42,7 @@
         <update_guid_history>5d3effd9b76c50107f8a1141af911298:-875141361</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_hoocares_doctor.x_snc_hoocares.doctor_user">60c1cca1dbac501005e46b984b9619d0</sys_audit_delete>
+        <sys_audit_delete display_value="">60c1cca1dbac501005e46b984b9619d0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sissazad</sys_created_by>
         <sys_created_on>2020-05-02 19:39:35</sys_created_on>

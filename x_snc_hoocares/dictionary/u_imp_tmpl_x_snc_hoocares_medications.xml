@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Hoocares Medications" max_length="40" name="u_imp_tmpl_x_snc_hoocares_medications" type="collection">
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Hoocares Medications" max_length="40" name="u_imp_tmpl_x_snc_hoocares_medications" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Class" label="Class" max_length="40" name="u_class" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Dose" label="Dose" max_length="40" name="u_dose" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Drug Allergy" label="Drug Allergy" max_length="40" name="u_drug_allergy" type="string"/>
@@ -8,7 +8,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Patient" label="Patient" max_length="32" name="u_patient" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Prescribed" label="Prescribed" max_length="32" name="u_prescribed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prescription" label="Prescription " max_length="40" name="u_prescription" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prescription" label="Prescription" max_length="40" name="u_prescription" type="string"/>
         <element attributes="import_attribute_name=Refill Number" label="Refill Number" max_length="40" name="u_refill_number" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Regimen" label="Regimen" max_length="40" name="u_regimen" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Special Instructions" label="Special Instructions" max_length="40" name="u_special_instructions" type="string"/>

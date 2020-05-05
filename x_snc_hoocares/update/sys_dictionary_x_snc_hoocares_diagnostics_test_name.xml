@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sissazad</sys_created_by>
         <sys_created_on>2020-05-02 20:20:22</sys_created_on>
-        <sys_id>66c90829dbac501005e46b984b9619be</sys_id>
+        <sys_id>dfd1650a07281010328af2ae7c1ed0f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name</sys_name>
         <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_hoocares_diagnostics_test_name</sys_update_name>
-        <sys_updated_by>sissazad</sys_updated_by>
-        <sys_updated_on>2020-05-02 20:20:22</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 15:57:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

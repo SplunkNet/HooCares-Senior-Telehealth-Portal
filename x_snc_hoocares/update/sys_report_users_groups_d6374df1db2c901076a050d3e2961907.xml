@@ -14,6 +14,6 @@
         <sys_update_name>sys_report_users_groups_d6374df1db2c901076a050d3e2961907</sys_update_name>
         <sys_updated_by>rjsavage</sys_updated_by>
         <sys_updated_on>2020-05-03 19:21:34</sys_updated_on>
-        <user_id display_value="Admin User">931b5705db24501005e46b984b9619ff</user_id>
+        <user_id display_value="">931b5705db24501005e46b984b9619ff</user_id>
     </sys_report_users_groups>
 </record_update>

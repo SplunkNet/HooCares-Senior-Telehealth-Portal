@@ -52,7 +52,7 @@
         <update_guid_history>29f7c4e51dac5010fe38eddf6335ca10:-1560382199</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient Test">b4afb9fddb6c901005e46b984b9619d4</sys_audit_delete>
+        <sys_audit_delete display_value="">b4afb9fddb6c901005e46b984b9619d4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-03 23:28:02</sys_created_on>

@@ -29,7 +29,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Admin User">931b5705db24501005e46b984b9619ff</created_by_user>
+        <created_by_user display_value="">931b5705db24501005e46b984b9619ff</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -45,7 +45,6 @@
         <field/>
         <field_list>measurement_date,patient,source,type,unit,u_value_dec</field_list>
         <filter table="x_snc_hoocares_base_measurements">type=Heart Rate^patient.sys_id=javascript:gs.getUserID()<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Heart Rate"/>
-            <item endquery="false" field="patient.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>

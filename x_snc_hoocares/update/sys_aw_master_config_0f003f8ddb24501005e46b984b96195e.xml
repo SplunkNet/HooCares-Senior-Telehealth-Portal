@@ -6,7 +6,7 @@
         <compiled_page_registry display_value="hoocares">07003f8ddb24501005e46b984b96195f</compiled_page_registry>
         <description>Elderly Care Monitoring</description>
         <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
-        <global_search_data display_value="hoocares Search Context Config">8f003f8ddb24501005e46b984b96195c</global_search_data>
+        <global_search_data display_value="">8f003f8ddb24501005e46b984b96195c</global_search_data>
         <name>HooCares</name>
         <navigation_type>tab</navigation_type>
         <notifications_enabled>true</notifications_enabled>

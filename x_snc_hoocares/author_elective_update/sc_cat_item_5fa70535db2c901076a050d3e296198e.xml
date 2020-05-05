@@ -137,7 +137,7 @@
         <update_guid_history>4ae8c175b72c9010f89e0f91896daab9:-2127902414,0988cd35d82c9010a77bc4759277d638:1082100683,e3d78535432c9010918b78c2bb8253a1:-36039223</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Request Visit">44c94d75db2c901076a050d3e2961923</sys_audit_delete>
+        <sys_audit_delete display_value="">44c94d75db2c901076a050d3e2961923</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>rjsavage</sys_created_by>
         <sys_created_on>2020-05-03 19:32:36</sys_created_on>

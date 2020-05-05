@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_user" table="x_snc_hoocares_patient">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_hoocares_patient">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>42</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>rjsavage</sys_created_by>
         <sys_created_on>2020-05-01 23:58:25</sys_created_on>
-        <sys_id>12637f0ddb24501076a050d3e29619bf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>87d1650a07281010328af2ae7c1ed0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_hoocares_patient</sys_name>
         <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_hoocares_patient_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-05-03 08:42:50</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_snc_hoocares_patient_NULL</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 15:57:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

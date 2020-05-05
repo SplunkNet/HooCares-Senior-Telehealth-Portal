@@ -52,7 +52,7 @@
         <update_guid_history>744c88217fec50100bcdc517a0aab069:2104491430,2d060ce9ecac5010791f8db154d8d8e0:-850407112</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient">c3da583ddb28901076a050d3e29619ce</sys_audit_delete>
+        <sys_audit_delete display_value="">c3da583ddb28901076a050d3e29619ce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:07:44</sys_created_on>

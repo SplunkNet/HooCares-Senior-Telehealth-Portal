@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>measurement_date</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>patient</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>source</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>type</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>unit</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_value_dec</element>
-            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="62374df1db2c901076a050d3e2961913">48f8d9b1db6c901076a050d3e29619db</list_id>
+            <list_id display_value="x_snc_hoocares_base_measurements" element="NULL" name="x_snc_hoocares_base_measurements" parent="NULL" relationship="NULL" sys_domain="global" view="0352e1ca07281010328af2ae7c1ed0b3">48f8d9b1db6c901076a050d3e29619db</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -115,7 +115,7 @@
             <sys_updated_by>rjsavage</sys_updated_by>
             <sys_updated_on>2020-05-03 20:38:58</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt52374df1db2c901076a050d3e2961907" name="RPT52374df1db2c901076a050d3e2961907">62374df1db2c901076a050d3e2961913</view>
+            <view display_value="Rpt52374df1db2c901076a050d3e2961907" name="RPT52374df1db2c901076a050d3e2961907">0352e1ca07281010328af2ae7c1ed0b3</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

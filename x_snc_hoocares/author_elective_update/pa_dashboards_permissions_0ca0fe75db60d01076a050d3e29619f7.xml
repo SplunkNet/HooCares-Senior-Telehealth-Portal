@@ -48,7 +48,7 @@
         <update_guid_history>4e923ef50160d01057a157ee45482941:-865122378,50a0fe755560d0108b7c0f8de87827f9:1118194961</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_hoocares.staff">0ca27ef5db60d01076a050d3e2961950</sys_audit_delete>
+        <sys_audit_delete display_value="">0ca27ef5db60d01076a050d3e2961950</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-04 03:10:48</sys_created_on>

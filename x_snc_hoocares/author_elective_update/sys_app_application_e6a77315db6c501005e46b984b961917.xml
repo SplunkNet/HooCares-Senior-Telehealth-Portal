@@ -52,7 +52,7 @@
         <update_guid_history>e2a77315b56c50100ee51f3efa2f5219:-69569784</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Pharmacy">52c764eddbec501005e46b984b96197a</sys_audit_delete>
+        <sys_audit_delete display_value="">52c764eddbec501005e46b984b96197a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-02 22:25:43</sys_created_on>

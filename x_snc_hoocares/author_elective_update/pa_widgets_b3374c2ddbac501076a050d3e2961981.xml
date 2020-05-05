@@ -144,7 +144,7 @@
         <update_guid_history>778ac0ed0cac5010f654111825856d89:1558764418,f4578c2de5ac5010a115b4d286561a35:-398476296</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Average Heart Rate Weekly">f16a903ddb28901076a050d3e2961952</sys_audit_delete>
+        <sys_audit_delete display_value="">f16a903ddb28901076a050d3e2961952</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:05:44</sys_created_on>

@@ -52,7 +52,7 @@
         <update_guid_history>3ef05c5175a450106c7fd7b13398748a:724329039</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Base Measurements">aed41415dba4501005e46b984b96192a</sys_audit_delete>
+        <sys_audit_delete display_value="">aed41415dba4501005e46b984b96192a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-02 02:24:31</sys_created_on>

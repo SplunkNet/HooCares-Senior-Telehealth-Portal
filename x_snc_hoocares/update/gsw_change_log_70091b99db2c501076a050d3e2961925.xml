@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2020-05-02 16:41:34</change_date>
-        <changed_by display_value="Jeremy Le">675bd705db24501005e46b984b961952</changed_by>
+        <changed_by display_value="">675bd705db24501005e46b984b961952</changed_by>
         <content display_value="View Dashboards">d91f8ee10b01230083332dc3b6673acc</content>
         <related_change_log_entry/>
         <related_task_entry/>
