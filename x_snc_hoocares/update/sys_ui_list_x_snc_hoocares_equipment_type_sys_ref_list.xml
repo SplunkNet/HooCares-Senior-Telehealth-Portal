@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_type</element>
-            <list_id display_value="x_snc_hoocares_equipment_type" element="NULL" name="x_snc_hoocares_equipment_type" parent="NULL" relationship="NULL" sys_domain="global" view="f43b1350db13001076a050d3e296196c">b78eb385db64501076a050d3e2961977</list_id>
+            <list_id display_value="x_snc_hoocares_equipment_type" element="NULL" name="x_snc_hoocares_equipment_type" parent="NULL" relationship="NULL" sys_domain="global" view="d5bc304207201010328af2ae7c1ed06c">b78eb385db64501076a050d3e2961977</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_category</element>
-            <list_id display_value="x_snc_hoocares_equipment_type" element="NULL" name="x_snc_hoocares_equipment_type" parent="NULL" relationship="NULL" sys_domain="global" view="f43b1350db13001076a050d3e296196c">b78eb385db64501076a050d3e2961977</list_id>
+            <list_id display_value="x_snc_hoocares_equipment_type" element="NULL" name="x_snc_hoocares_equipment_type" parent="NULL" relationship="NULL" sys_domain="global" view="d5bc304207201010328af2ae7c1ed06c">b78eb385db64501076a050d3e2961977</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>jle6</sys_updated_by>
             <sys_updated_on>2020-05-02 00:47:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">f43b1350db13001076a050d3e296196c</view>
+            <view display_value="Reference List" name="sys_ref_list">d5bc304207201010328af2ae7c1ed06c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -114,7 +114,7 @@ Measurement Date &gt;= 2020-05-02 00:00:00 .and. Type = Heart Rate</description>
         <update_guid_history>b7ca183d302890100014a4ab09badbcf:-481943635,f0931829a9ec501082c52d240693ba95:815249058,d47090a505ec50100fae08d84b1740c7:-1563359271,d56050a59aec50101899c73c20b255f6:1961078794,d640dc6562ec5010d25390aa94846c95:2129157030,7b4cc8218dec501097e532b3b645307f:-946307401,e04a00edc7ac5010c7071569bed59a49:-1005870793,0a68486d02ac50102154b7c871931568:1763071192,409544e943ac5010a49dd6f80642da70:-776445881,7d158ca96aac5010ced6eb04860921da:188324194,1721082905ac5010f807d1d0983a2f54:-1648201517,532108299bac5010a8411d75ba569c53:858120834,9b210829bfac50100f2072d33e371551:-321738265</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Average Heart Rate">0b0b5c3ddb28901076a050d3e2961926</sys_audit_delete>
+        <sys_audit_delete display_value="">0b0b5c3ddb28901076a050d3e2961926</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:08:33</sys_created_on>

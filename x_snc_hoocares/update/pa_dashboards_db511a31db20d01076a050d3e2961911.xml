@@ -12,7 +12,7 @@
         <name>Staff Dashboard</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value="Jeremy Le">675bd705db24501005e46b984b961952</owner>
+        <owner display_value="">675bd705db24501005e46b984b961952</owner>
         <restrict_to_roles>x_snc_hoocares.staff</restrict_to_roles>
         <role_override>true</role_override>
         <roles/>

@@ -65,7 +65,7 @@
         <update_guid_history>eed899b1db6c9010d801c0edc071597c:1862444472,23065c15d8a450104557c608f8d896bc:1910633143,eab1d41525a45010cd8b01625199679a:570243245,951d085181a45010e4d876ef4d1b68d2:1056997634</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient Doctors">30528671dbac901005e46b984b96191a</sys_audit_delete>
+        <sys_audit_delete display_value="">30528671dbac901005e46b984b96191a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-03 23:39:47</sys_created_on>

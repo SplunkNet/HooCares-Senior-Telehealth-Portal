@@ -52,7 +52,7 @@
         <update_guid_history>9b86881d7d6450105003c264a84e48ce:-487227699,e276081d846450109430142b91794942:-1396476473,a2887b41506450108b5ba0bc78bcb5ae:-1536178312</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Staff">392ac4dddb64501076a050d3e29619d8</sys_audit_delete>
+        <sys_audit_delete display_value="">392ac4dddb64501076a050d3e29619d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>rjsavage</sys_created_by>
         <sys_created_on>2020-05-02 01:37:47</sys_created_on>

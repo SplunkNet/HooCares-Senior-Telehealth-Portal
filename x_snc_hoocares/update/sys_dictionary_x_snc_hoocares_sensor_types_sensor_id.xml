@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-01 23:57:32</sys_created_on>
-        <sys_id>7a91ffcddb24501005e46b984b96198f</sys_id>
+        <sys_id>b7d1a50a07281010328af2ae7c1ed0a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sensor ID</sys_name>
         <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_hoocares_sensor_types_sensor_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-01 23:57:32</sys_updated_on>
+        <sys_updated_on>2020-05-04 15:57:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

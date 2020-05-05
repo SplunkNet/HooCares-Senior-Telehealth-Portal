@@ -29,7 +29,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Jeremy Le">675bd705db24501005e46b984b961952</created_by_user>
+        <created_by_user display_value="">675bd705db24501005e46b984b961952</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -45,7 +45,7 @@
         <field>measurement_date</field>
         <field_list>measurement_date,patient,source,type,unit,value,sys_created_on,sys_created_by,u_value_dec</field_list>
         <filter table="x_snc_hoocares_base_measurements">type=Heart Rate^patient=baf40cd9db64501076a050d3e296190d^measurement_dateRELATIVEGT@dayofweek@ago@1^ORDERBYmeasurement_date<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Heart Rate"/>
-            <item display_table="x_snc_hoocares_patient" display_value="Jean Valjean" endquery="false" field="patient" goto="false" newquery="false" operator="=" or="false" value="baf40cd9db64501076a050d3e296190d"/>
+            <item endquery="false" field="patient" goto="false" newquery="false" operator="=" or="false" value="baf40cd9db64501076a050d3e296190d"/>
             <item endquery="false" field="measurement_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ago@1"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="measurement_date"/>
         </filter>

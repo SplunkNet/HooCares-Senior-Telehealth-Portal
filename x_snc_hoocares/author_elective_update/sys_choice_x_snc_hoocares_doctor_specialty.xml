@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="DELETE" field="specialty" table="x_snc_hoocares_doctor" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="specialty" table="x_snc_hoocares_doctor" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>specialty</element>
@@ -36,49 +36,4 @@
             <sys_updated_on>2020-05-02 19:45:09</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
-    <sys_update_version action="INSERT_OR_UPDATE">
-        <action>DELETE</action>
-        <application display_value="hoocares">888eab4ddb24501005e46b984b9619f3</application>
-        <file_path/>
-        <instance_id>f6f4f8226fff8200d54da9cc5d3ee4de</instance_id>
-        <instance_name>hackathon054</instance_name>
-        <name>sys_choice_x_snc_hoocares_doctor_specialty</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="specialty" table="x_snc_hoocares_doctor" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>specialty</element><hint/><inactive>false</inactive><label>Primary Care</label><language>en</language><name>x_snc_hoocares_doctor</name><sequence/><sys_created_by>sissazad</sys_created_by><sys_created_on>2020-05-02 19:49:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fbf3cc25dbac501005e46b984b9619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sissazad</sys_updated_by><sys_updated_on>2020-05-02 19:49:36</sys_updated_on><value/></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>specialty</element><name>x_snc_hoocares_doctor</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>sissazad</sys_created_by><sys_created_on>2020-05-02 19:45:09</sys_created_on><sys_id>02030425dbac501005e46b984b961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>specialty</sys_name><sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package><sys_policy/><sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope><sys_update_name>sys_choice_x_snc_hoocares_doctor_specialty</sys_update_name><sys_updated_by>sissazad</sys_updated_by><sys_updated_on>2020-05-02 19:45:09</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
-        <payload_hash>-1915467363</payload_hash>
-        <record_name>Doctor.Specialty </record_name>
-        <reverted_from/>
-        <source>1c8eab4ddb24501005e46b984b9619f5</source>
-        <source_table>sys_update_set</source_table>
-        <state>previous</state>
-        <sys_created_by>sissazad</sys_created_by>
-        <sys_created_on>2020-05-03 20:18:11</sys_created_on>
-        <sys_id>7b24917ddb2c901076a050d3e2961919</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>171dc30661b0000001</sys_recorded_at>
-        <sys_updated_by>sissazad</sys_updated_by>
-        <sys_updated_on>2020-05-03 20:18:11</sys_updated_on>
-        <type>Choice list</type>
-        <update_guid>f324917d502c9010395c5408811db019</update_guid>
-        <update_guid_history>f324917d502c9010395c5408811db019:-1915467363,bf24917dca2c90108bec3417d3cba605:-1196607482,3324517d992c90100bb6a6a0d07b9dff:-973989128,b324517df92c9010f1f66470742a15f8:1795612692,3724517d7d2c90104527ba29cbfa17f1:-628417252,ff24517da42c90101c44dca8977931dd:1633970638,6324517db92c901089c419448f9b80d7:1225550544,e324517d552c90104e5f37ca7d9a1ed0:1744784126,a724517dd12c9010c925aaac768250b0:1953044977,4c444065b9ac5010e36c3525ff36a2e8:1444094140,ba24806565ac50102b441e1a744b1a63:888558538,970440652dac5010ccacaa577ef48f4f:-695607422,3ff3006563ac501023ce9fcc38d0a9e7:-1901235693,c3e38c2575ac5010000b7f6d64b748cd:-1443322719,5ad3cc2540ac5010fc04171fad1d0a38:662373348,41c38c25a9ac5010a4451e96509e7e98:530584402,c3930c25ceac5010dfbe5204a5399e84:1910394429,6173c82553ac50107087ffe1fa629064:921064191,4a03c4252dac5010f5215ded435c4cc5:-1176190309</update_guid_history>
-    </sys_update_version>
-    <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete/>
-        <sys_class_name>sys_metadata_delete</sys_class_name>
-        <sys_created_by>sissazad</sys_created_by>
-        <sys_created_on>2020-05-03 20:18:11</sys_created_on>
-        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>02030425dbac501005e46b984b961972</sys_id>
-        <sys_metadata>02030425dbac501005e46b984b961972</sys_metadata>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>specialty</sys_name>
-        <sys_package display_value="hoocares" source="x_snc_hoocares">888eab4ddb24501005e46b984b9619f3</sys_package>
-        <sys_parent/>
-        <sys_policy/>
-        <sys_scope display_value="hoocares">888eab4ddb24501005e46b984b9619f3</sys_scope>
-        <sys_scope_delete display_value="">0ab8050f50444e58bc00d897f63edd24</sys_scope_delete>
-        <sys_update_name>sys_choice_x_snc_hoocares_doctor_specialty</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_snc_hoocares_doctor_specialty">7b24917ddb2c901076a050d3e2961919</sys_update_version>
-        <sys_updated_by>sissazad</sys_updated_by>
-        <sys_updated_on>2020-05-03 20:18:11</sys_updated_on>
-    </sys_metadata_delete>
 </record_update>

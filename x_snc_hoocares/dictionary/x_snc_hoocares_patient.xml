@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="Patient" max_length="40" name="x_snc_hoocares_patient" sizeclass="42" type="collection">
+    <element label="Patient" max_length="40" name="x_snc_hoocares_patient" type="collection">
         <element label="Emergency Contact Name" max_length="100" name="emergency_contact_name" type="string"/>
         <element label="Fitbit ID" max_length="40" name="fitbit_id" type="string"/>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>

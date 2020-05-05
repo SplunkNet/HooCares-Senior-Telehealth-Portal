@@ -18,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Company" name="core_company">3f1b5b10db13001076a050d3e29619f4</super_class>
+        <super_class display_value="Company" name="core_company">3f9c780207201010328af2ae7c1ed0f4</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

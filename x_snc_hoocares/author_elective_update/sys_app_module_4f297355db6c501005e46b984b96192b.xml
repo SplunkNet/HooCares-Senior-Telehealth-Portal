@@ -65,7 +65,7 @@
         <update_guid_history>219815b1eb6c9010b75e0a2ce32ec65e:1457591336,291960217c20901093ca191f046c3b2d:55851913,072973551e6c50109f5724e53750972d:1035955790</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient Pharmacies">cb100231dbac901005e46b984b961992</sys_audit_delete>
+        <sys_audit_delete display_value="">cb100231dbac901005e46b984b961992</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-03 23:30:06</sys_created_on>

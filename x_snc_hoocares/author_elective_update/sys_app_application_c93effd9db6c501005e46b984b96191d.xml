@@ -52,7 +52,7 @@
         <update_guid_history>053effd9e46c50106a60e209868bbd20:493729736</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Doctor">ff76e8addbec501005e46b984b96196c</sys_audit_delete>
+        <sys_audit_delete display_value="">ff76e8addbec501005e46b984b96196c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nstodd</sys_created_by>
         <sys_created_on>2020-05-02 22:20:06</sys_created_on>

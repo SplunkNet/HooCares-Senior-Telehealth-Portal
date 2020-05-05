@@ -61,7 +61,7 @@
         <update_guid_history>641a57d91f2c501025d1c3e1919b1d69:136796441,320a17d9152c50102bc198a4a9e603f7:1644816546,cdb953d9ff2c5010aef8c8c79926f06c:136796441</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient Measurements">b94b107ddb28901076a050d3e2961987</sys_audit_delete>
+        <sys_audit_delete display_value="">b94b107ddb28901076a050d3e2961987</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>jle6</sys_created_by>
         <sys_created_on>2020-05-03 16:09:34</sys_created_on>
